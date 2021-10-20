@@ -87,11 +87,11 @@ openblocks:last_stand
 openblocks:flim_flam
 endercore:autosmelt
 endercore:xpboost
-enderio:witherweapon
 enderio:soulbound
-enderio:shimmer
 enderio:witherarrow
 enderio:repellent
+enderio:shimmer
+enderio:witherweapon
 mod_lavacow:poisonous
 mod_lavacow:lifesteal
 mod_lavacow:corrosive
