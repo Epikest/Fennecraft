@@ -102,8 +102,8 @@ for theseeds in removedSeeds {
 	mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds"));
 	mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_crop"));
 	mods.jei.JEI.removeAndHide(itemUtils.getItem("mysticalagriculture:"~theseeds~"_essence"));
-	itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds").addTooltip(format.red("You are on Normal Packmode, so this Item is disabled and useless."));
-	itemUtils.getItem("mysticalagriculture:"~theseeds~"_essence").addTooltip(format.red("You are on Normal Packmode, so this Item is disabled and useless."));
+	itemUtils.getItem("mysticalagriculture:"~theseeds~"_seeds").addTooltip(format.red("This item is disabled."));
+	itemUtils.getItem("mysticalagriculture:"~theseeds~"_essence").addTooltip(format.red("This item is disabled."));
 }
 for essenceRecipes in essenceRecipeNames {	
 	recipes.removeByRecipeName("mysticalagriculture:"~essenceRecipes);
