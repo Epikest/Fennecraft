@@ -1,0 +1,24 @@
+{
+	x: -16.0d,
+	y: -4.5d,
+	dependencies: [
+		"fc9d0886"
+	],
+	tasks: [{
+		uid: "b92aaaac",
+		type: "item",
+		items: [{
+			item: "rats:cheese_cannonball"
+		}]
+	}],
+	rewards: [{
+		uid: "40f39dbd",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "c0e083e3",
+		type: "loot",
+		table: 4
+	}]
+}

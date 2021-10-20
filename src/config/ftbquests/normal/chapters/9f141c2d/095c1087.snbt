@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:gunpowder 16",
+	disable_toast: true,
+	x: -9.5d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "2a8be4a1",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f4749093",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

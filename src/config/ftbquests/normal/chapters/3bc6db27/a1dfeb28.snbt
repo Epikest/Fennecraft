@@ -1,0 +1,25 @@
+{
+	x: -17.5d,
+	y: 3.0d,
+	dependencies: [
+		"a0f4b822"
+	],
+	tasks: [{
+		uid: "31aff03c",
+		type: "item",
+		items: [{
+			item: "railcraft:track_flex_high_speed"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8996c355",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e89e04e9",
+		type: "loot",
+		table: 4
+	}]
+}

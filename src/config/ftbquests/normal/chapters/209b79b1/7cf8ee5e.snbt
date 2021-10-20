@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "b0a26095",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					effectiveMaxDamage: 10
+				}
+			},
+			id: "treasure2:iron_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5593c61a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

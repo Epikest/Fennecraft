@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 9.0d,
+	dependencies: [
+		"c9f8530f"
+	],
+	tasks: [{
+		uid: "8a7ce0c1",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutcowboy"
+		}]
+	}],
+	rewards: [{
+		uid: "ffef81b2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ed299fae",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "30ae8afa",
+		type: "loot",
+		table: 4
+	}]
+}

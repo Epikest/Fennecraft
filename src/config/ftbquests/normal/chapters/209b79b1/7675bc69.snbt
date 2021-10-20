@@ -1,0 +1,38 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	shape: "square",
+	description: "Giants live on solid cloudbanks above the Highlands biome. For unknown reasons (Sorcery? Coincidence? Symbolism?) they look like giant versions of the player looking at them.",
+	dependencies: [
+		"bc906172"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d89cdac",
+		type: "kill",
+		title: "Bounty: Armored Giant",
+		icon: "twilightforest:knightmetal_sword",
+		entity: "twilightforest:armored_giant",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a4c9e7ae",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "c1b6577e",
+		type: "item",
+		item: "twilightforest:giant_pickaxe"
+	},
+	{
+		uid: "d0787476",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "ff60a7cf",
+		type: "loot",
+		table: 5
+	}]
+}

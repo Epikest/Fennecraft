@@ -1,0 +1,28 @@
+{
+	x: 10.0d,
+	y: 0.5d,
+	description: "Unavailable on Grubhub",
+	text: [
+		""
+	],
+	dependencies: [
+		"5ea6fbc6"
+	],
+	tasks: [{
+		uid: "878edfdc",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:dominos"
+		}]
+	}],
+	rewards: [{
+		uid: "c55005ae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "19e1a850",
+		type: "loot",
+		table: 4
+	}]
+}

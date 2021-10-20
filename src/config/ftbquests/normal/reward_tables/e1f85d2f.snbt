@@ -1,0 +1,687 @@
+{
+	title: "Perfected Crate",
+	icon: "treasure2:dread_pirate_chest",
+	loot_size: 4,
+	rewards: [{
+		item: {
+			id: "techreborn:rockcutter",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
+				energy: 400000
+			}
+		},
+		weight: 2566
+	},
+	{
+		item: "rats:rat_upgrade_tnt_survivor",
+		weight: 1615
+	},
+	{
+		item: "rats:rat_upgrade_flight",
+		weight: 3235
+	},
+	{
+		item: {
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			},
+			Damage: 18s
+		},
+		weight: 1016
+	},
+	{
+		item: {
+			id: "techreborn:diamonddrill",
+			tag: {
+				energy: 400000
+			}
+		},
+		weight: 1615
+	},
+	{
+		item: "minecraft:golden_apple 1 1",
+		weight: 3632
+	},
+	{
+		item: "mysticalagriculture:supremium_apple",
+		weight: 1615
+	},
+	{
+		item: "rats:plague_scythe",
+		weight: 2566
+	},
+	{
+		item: "iceandfire:armor_blue_chestplate",
+		weight: 2286
+	},
+	{
+		item: "iceandfire:tide_blue_helmet",
+		weight: 2881
+	},
+	{
+		item: "iceandfire:tide_trident",
+		weight: 2881
+	},
+	{
+		item: "iceandfire:dragonsteel_fire_chestplate",
+		weight: 100
+	},
+	{
+		item: "iceandfire:fire_dragon_heart",
+		weight: 1615
+	},
+	{
+		item: "iceandfire:myrmex_desert_swarm",
+		weight: 2286
+	},
+	{
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "xu_demonic_metal"
+			}
+		},
+		weight: 2286
+	},
+	{
+		item: "iceandfire:ice_dragon_blood",
+		weight: 3632
+	},
+	{
+		item: "techreborn:part 1 39",
+		weight: 1615
+	},
+	{
+		item: "techreborn:part 1 43",
+		weight: 3235
+	},
+	{
+		item: "storagedrawers:upgrade_creative",
+		weight: 319
+	},
+	{
+		item: "minecraft:skull 1 5",
+		weight: 3235
+	},
+	{
+		item: "techreborn:plates 1 38",
+		random_bonus: 1,
+		weight: 1524
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "dragonsteel_ice"
+			}
+		},
+		weight: 2286
+	},
+	{
+		item: "iceandfire:dragonsteel_fire_axe",
+		weight: 1615
+	},
+	{
+		item: {
+			id: "tconstruct:scythe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.75f,
+					FreeModifiers: 3,
+					Durability: 1210,
+					HarvestLevel: 4,
+					Attack: 9.75f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 9.75f,
+					FreeModifiers: 3,
+					Durability: 1210,
+					HarvestLevel: 4,
+					Attack: 9.75f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"weapon",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"xu_evil_metal"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"xu_withering",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 2566
+	},
+	{
+		item: "iceandfire:hippogryph_egg 1 2",
+		weight: 2286
+	},
+	{
+		item: "thaumcraft:creative_flux_sponge",
+		weight: 1615
+	},
+	{
+		item: {
+			id: "techreborn:nanosaber",
+			tag: {
+				isActive: 0b,
+				energy: 640000
+			}
+		},
+		weight: 1615
+	},
+	{
+		item: {
+			id: "techreborn:advancedchainsaw",
+			tag: {
+				energy: 4000000
+			}
+		},
+		weight: 100
+	},
+	{
+		item: {
+			id: "techreborn:advanceddrill",
+			tag: {
+				energy: 4000000
+			}
+		},
+		weight: 100
+	},
+	{
+		item: "techreborn:cable 1 8",
+		weight: 100
+	},
+	{
+		item: "twilightforest:cube_of_annihilation",
+		weight: 100
+	},
+	{
+		item: "twilightforest:experiment_115",
+		weight: 3235
+	},
+	{
+		item: "mysticalagriculture:fiery_ingot_seeds",
+		count: 2,
+		weight: 253
+	},
+	{
+		item: "iceandfire:dragon_bone_block",
+		weight: 100
+	},
+	{
+		item: {
+			id: "conarm:helmet",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 27123,
+					Defense: 37.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 0.0f,
+					Toughness: 0.0f,
+					MiningSpeed: 0.0f,
+					FreeModifiers: 3,
+					Durability: 27123,
+					HarvestLevel: 0,
+					Attack: 0.0f,
+					Defense: 37.5f
+				},
+				TinkerData: {
+					Materials: [
+						"gaia",
+						"gaia",
+						"gaia"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "alien",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "payback",
+					color: -7252043,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"alien",
+					"payback",
+					"leveling_armor"
+				]
+			}
+		},
+		weight: 100
+	},
+	{
+		item: "nuclearcraft:rtg_uranium",
+		weight: 639
+	},
+	{
+		item: "conarm:resist_mat",
+		weight: 1615
+	},
+	{
+		item: "twilightforest:block_and_chain",
+		weight: 2286
+	},
+	{
+		item: "twilightforest:magic_beans",
+		weight: 1615
+	},
+	{
+		item: "twilightforest:giant_pickaxe",
+		weight: 1615
+	},
+	{
+		item: "twilightforest:giant_sword",
+		weight: 1615
+	},
+	{
+		item: "iceandfire:lich_staff",
+		weight: 639
+	},
+	{
+		item: "iceandfire:dread_stone_bricks_cracked",
+		count: 2,
+		random_bonus: 2,
+		weight: 1281
+	},
+	{
+		item: "iceandfire:dread_stone_bricks_mossy",
+		count: 2,
+		random_bonus: 2,
+		weight: 1281
+	},
+	{
+		item: "iceandfire:sea_serpent_scale_block_blue",
+		weight: 639
+	},
+	{
+		item: "iceandfire:dread_stone_bricks",
+		count: 2,
+		random_bonus: 2,
+		weight: 1281
+	},
+	{
+		item: "iceandfire:cockatrice_eye",
+		count: 2,
+		weight: 1615
+	},
+	{
+		item: "minecraft:diamond_block",
+		random_bonus: 1,
+		weight: 2157
+	},
+	{
+		item: "minecraft:gold_block",
+		random_bonus: 1,
+		weight: 3632
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 12.555f,
+					FreeModifiers: 3,
+					Durability: 1800,
+					HarvestLevel: 4,
+					Attack: 12.3025f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 12.555f,
+					FreeModifiers: 3,
+					Durability: 1800,
+					HarvestLevel: 4,
+					Attack: 12.3025f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "weee",
+					color: -1900544,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"weee",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 2566
+	},
+	{
+		item: {
+			id: "conarm:leggings",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 81615,
+					Defense: 37.5f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 81615,
+					Defense: 37.5f
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"leveling_armor"
+				]
+			}
+		},
+		weight: 253
+	},
+	{
+		item: "mysticalagriculture:crafting 1 37",
+		count: 2,
+		random_bonus: 2,
+		weight: 319
+	},
+	{
+		item: "iceandfire:dread_queen_sword",
+		weight: 100
+	},
+	{
+		item: "rats:compressed_rat",
+		random_bonus: 1,
+		weight: 319
+	},
+	{
+		item: "theaurorian:absorptionorb",
+		weight: 639
+	},
+	{
+		item: {
+			id: "tconstruct:shuriken",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 8.82f,
+					FreeModifiers: 3,
+					Durability: 1126,
+					HarvestLevel: 4,
+					Attack: 11.545f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					Accuracy: 1.0f,
+					MiningSpeed: 8.82f,
+					FreeModifiers: 3,
+					Durability: 1126,
+					HarvestLevel: 4,
+					Attack: 11.545f
+				},
+				Special: {
+					Categories: [
+						"projectile",
+						"no_melee",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"ebonypsi",
+						"ebonypsi",
+						"ebonypsi",
+						"ebonypsi"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "darkness",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "psieater",
+					color: -16119286,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"darkness",
+					"psieater",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 639
+	},
+	{
+		item: "mysticalagriculture:crafting 1 36",
+		count: 4,
+		random_bonus: 4,
+		weight: 639
+	},
+	{
+		item: "iceandfire:dragonsteel_fire_ingot",
+		count: 2,
+		random_bonus: 2,
+		weight: 639
+	},
+	{
+		item: "iceandfire:dragonsteel_ice_ingot",
+		count: 2,
+		random_bonus: 2,
+		weight: 639
+	},
+	{
+		item: {
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 200000,
+				JetpackParticle: 0
+			}
+		},
+		weight: 100
+	},
+	{
+		item: "mod_lavacow:goldenheart",
+		weight: 100
+	},
+	{
+		item: "mod_lavacow:moltenpan",
+		weight: 2566
+	},
+	{
+		item: "nuclearcraft:rad_x",
+		count: 2,
+		random_bonus: 2,
+		weight: 159
+	},
+	{
+		item: "extrautils2:lawsword",
+		weight: 100
+	},
+	{
+		item: "quark:diamond_heart",
+		weight: 1615
+	},
+	{
+		item: "cyclicmagic:inventory_food",
+		weight: 639
+	},
+	{
+		item: "cyclicmagic:crafting_food",
+		weight: 1016
+	},
+	{
+		item: "cyclicmagic:block_disenchanter",
+		weight: 1615
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "twilightforest:hydra"
+				}
+			}
+		},
+		weight: 1016
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "mod_lavacow:ithaqua"
+				}
+			}
+		},
+		weight: 1016
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "twilightforest:troll"
+				}
+			}
+		},
+		weight: 1016
+	},
+	{
+		item: "enderio:block_powered_spawner",
+		weight: 1615
+	},
+	{
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "twilightforest:naga"
+				}
+			}
+		},
+		weight: 1016
+	},
+	{
+		item: "charm:totem_of_returning",
+		weight: 1615
+	},
+	{
+		item: "cyclicmagic:heart_food",
+		weight: 3235
+	},
+	{
+		item: "cyclicmagic:sound_player",
+		count: 2,
+		random_bonus: 2,
+		weight: 3632
+	},
+	{
+		item: "thaumcraft:void_seed",
+		count: 2,
+		random_bonus: 2,
+		weight: 3632
+	},
+	{
+		item: "thaumcraft:nitor_white",
+		count: 4,
+		random_bonus: 4,
+		weight: 1281
+	}],
+	loot_crate: {
+		string_id: "perfected_crate",
+		color: 7667712,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

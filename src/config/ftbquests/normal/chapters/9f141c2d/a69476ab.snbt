@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 9.0d,
+	y: 2.5d,
+	description: "*Unlocked by completing Introduction*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"189d88b6"
+	],
+	tasks: [{
+		uid: "3e426a87",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:skull 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "3fb11980",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

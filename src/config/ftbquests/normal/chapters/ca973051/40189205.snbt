@@ -1,0 +1,27 @@
+{
+	x: -19.5d,
+	y: -12.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"21d77837"
+	],
+	tasks: [{
+		uid: "cd097752",
+		type: "item",
+		items: [{
+			item: "theaurorian:umbrashield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "298e11b6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "9089a9e8",
+		type: "loot",
+		table: 4
+	}]
+}

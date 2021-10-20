@@ -1,0 +1,44 @@
+{
+	x: 7.5d,
+	y: -5.25d,
+	dependencies: [
+		"baad6b7b"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "fcb4a816",
+		type: "item",
+		items: [{
+			item: "techreborn:ore 1 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5b6776a5",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "c047a2b1",
+		type: "item",
+		item: {
+			id: "twilightforest:steeleaf_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 35s
+				}]
+			}
+		}
+	},
+	{
+		uid: "e5bf391c",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "47b4f1aa",
+		type: "loot",
+		table: 4
+	}]
+}

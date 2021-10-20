@@ -1,0 +1,38 @@
+{
+	title: "Netheratic Duo",
+	x: -11.5d,
+	y: -10.0d,
+	shape: "pentagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"f343147d"
+	],
+	tasks: [{
+		uid: "9ca831a6",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "e7cd3291",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a50893fb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "121bc66c",
+		type: "loot",
+		table: 4
+	}]
+}

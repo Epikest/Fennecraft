@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:emerald_block 64",
+	disable_toast: true,
+	x: 0.5d,
+	y: 1.5d,
+	description: "*Unlocked by completing Mayor Position Available!*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"28bd7aff"
+	],
+	tasks: [{
+		uid: "270b8dd6",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:emerald_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "f359c8cc",
+		type: "ftbmoney:money",
+		ftb_money: 5200L
+	}]
+}

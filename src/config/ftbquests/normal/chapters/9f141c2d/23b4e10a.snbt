@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:dirt 64",
+	disable_toast: true,
+	x: -1.0d,
+	y: 3.0d,
+	shape: "circle",
+	can_repeat: true,
+	tasks: [{
+		uid: "7b4a9ea9",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "cd4ba5c2",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	icon: "mysticalagriculture:crafting 16 2",
+	disable_toast: true,
+	x: 10.5d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "dfc5755e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "mysticalagriculture:crafting 1 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4dfce027",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

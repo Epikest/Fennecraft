@@ -1,0 +1,60 @@
+{
+	title: "Mother of Dragons",
+	x: -6.0d,
+	y: -3.5d,
+	description: "Dracarys? ",
+	dependencies: [
+		"a9d286cd"
+	],
+	tasks: [{
+		uid: "8a414f9d",
+		type: "item",
+		title: "Collect a dragon egg",
+		items: [{
+			item: "iceandfire:dragonegg_red"
+		},
+		{
+			item: "iceandfire:dragonegg_blue"
+		},
+		{
+			item: "iceandfire:dragonegg_white"
+		},
+		{
+			item: "iceandfire:dragonegg_green"
+		},
+		{
+			item: "iceandfire:dragonegg_gray"
+		},
+		{
+			item: "iceandfire:dragonegg_bronze"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b6bab62",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "70c468ee",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "99ab80b3",
+		type: "item",
+		item: "iceandfire:goldpile",
+		count: 32
+	},
+	{
+		uid: "eb6a7d1f",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "0f558d65",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:diamond_block 64",
+	disable_toast: true,
+	x: -1.0d,
+	y: 1.5d,
+	description: "*Unlocked by completing Advanced Science*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3f8f0656"
+	],
+	tasks: [{
+		uid: "3c266c6a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:diamond_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a38b1d61",
+		type: "ftbmoney:money",
+		ftb_money: 8650L
+	}]
+}

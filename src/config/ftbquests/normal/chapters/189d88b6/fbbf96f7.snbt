@@ -1,0 +1,26 @@
+{
+	title: "Inventory full of junk? I gotchu",
+	x: -3.0d,
+	y: 0.0d,
+	description: "Storage crates are like chests but better",
+	dependencies: [
+		"31b29c7d"
+	],
+	tasks: [{
+		uid: "e0bba99a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "d789e7ff",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0ffc3239",
+		type: "item",
+		item: "actuallyadditions:item_crate_keeper"
+	}]
+}

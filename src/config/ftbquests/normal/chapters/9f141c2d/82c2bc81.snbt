@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:feather 16",
+	disable_toast: true,
+	x: -8.0d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "302af064",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:feather"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e9fee605",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

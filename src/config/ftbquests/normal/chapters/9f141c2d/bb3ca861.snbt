@@ -1,0 +1,27 @@
+{
+	disable_toast: true,
+	x: 2.0d,
+	y: -1.5d,
+	shape: "circle",
+	description: "*Unlocked by completing Bosses*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"9fae10ac"
+	],
+	tasks: [{
+		uid: "dd1b1051",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:ingots 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c19116d2",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "dde6df07",
+		type: "item",
+		items: [{
+			item: "iceandfire:amphithere_macuahuitl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c0c4550",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "b4bcadb8",
+		type: "loot",
+		auto: "disabled",
+		table: 5
+	}]
+}

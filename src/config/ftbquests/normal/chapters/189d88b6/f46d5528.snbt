@@ -1,0 +1,32 @@
+{
+	x: 8.5d,
+	y: -4.1d,
+	dependencies: [
+		"baad6b7b"
+	],
+	size: 0.6d,
+	tasks: [{
+		uid: "4701b047",
+		type: "item",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e308268f",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "15828f2f",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "4593a1b3",
+		type: "loot",
+		table: 4
+	}]
+}

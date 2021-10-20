@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 9.5d,
+	y: 4.0d,
+	shape: "gear",
+	description: "*Unlocked by completing Advanced Science*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3f8f0656"
+	],
+	tasks: [{
+		uid: "7a0c1e76",
+		type: "fluid",
+		disable_toast: true,
+		fluid: "refined_fuel",
+		amount: 16000
+	}],
+	rewards: [{
+		uid: "faa1b619",
+		type: "ftbmoney:money",
+		ftb_money: 275L
+	}]
+}

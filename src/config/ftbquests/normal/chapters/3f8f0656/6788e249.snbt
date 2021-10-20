@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: 12.0d,
+	dependencies: [
+		"9a541046"
+	],
+	tasks: [{
+		uid: "2840765c",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb2593f8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ce48c138",
+		type: "loot",
+		table: 4
+	}]
+}

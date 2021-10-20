@@ -1,0 +1,28 @@
+{
+	title: "&6Flaming Pyrotheum",
+	x: 8.0d,
+	y: 3.0d,
+	description: "A warm bubbly liquid to comfort the miners of The Beneath, just don't get too close!",
+	text: [
+		""
+	],
+	dependencies: [
+		"d013cbea"
+	],
+	tasks: [{
+		uid: "f7bc8cf1",
+		type: "fluid",
+		fluid: "pyrotheum",
+		amount: 8000
+	}],
+	rewards: [{
+		uid: "c8950b91",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b5b712f9",
+		type: "loot",
+		table: 3
+	}]
+}

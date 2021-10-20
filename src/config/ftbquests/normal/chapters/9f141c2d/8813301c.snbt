@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:rotten_flesh 64",
+	disable_toast: true,
+	x: -8.0d,
+	y: 0.0d,
+	description: "*Unlocked by completing Farming and Agriculture*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"99cbbc10"
+	],
+	tasks: [{
+		uid: "9189d1af",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "83131ac2",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

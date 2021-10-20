@@ -1,0 +1,28 @@
+{
+	x: -10.0d,
+	y: 3.5d,
+	shape: "gear",
+	description: "An Introduction To Forestry ",
+	text: [
+		"Scoop a bee hive"
+	],
+	tasks: [{
+		uid: "2741ed4b",
+		type: "item",
+		items: [{
+			item: "forestry:scoop"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e276ce1f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8847f6f6",
+		type: "loot",
+		table: 4
+	}]
+}

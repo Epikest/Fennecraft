@@ -1,0 +1,41 @@
+{
+	title: "&c&lThe Undertaker",
+	x: 4.0d,
+	y: 4.0d,
+	description: "The Undertaker is a powerful hostile necromancer that has the ability to summon armies of Unburied and siege upon villages. Taking no prisoners and adding to his army of undead servants, this abomination must be stopped...",
+	tasks: [{
+		uid: "5feff271",
+		type: "kill",
+		icon: "mod_lavacow:undertaker_shovel",
+		entity: "mod_lavacow:undertaker",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "27cf8e0d",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "c8e6fb94",
+		type: "item",
+		item: {
+			id: "minecraft:emerald_block",
+			tag: {
+				display: {
+					Name: "Villager's Prize"
+				}
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "a78d0162",
+		type: "item",
+		item: "iceandfire:lich_staff"
+	},
+	{
+		uid: "f43a40d5",
+		type: "loot",
+		table: 6
+	}]
+}

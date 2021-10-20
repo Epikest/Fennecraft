@@ -1,0 +1,26 @@
+{
+	x: -16.5d,
+	y: -11.0d,
+	dependencies: [
+		"21d77837"
+	],
+	tasks: [{
+		uid: "c4776f8d",
+		type: "item",
+		items: [{
+			item: "theaurorian:absorptionorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9af5860d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "e98e8939",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Diggy Diggy Hole",
+	x: 7.0d,
+	y: 1.5d,
+	description: "&oYou might want to invest in a quarry, up to you...",
+	text: [
+		""
+	],
+	dependencies: [
+		"d013cbea"
+	],
+	tasks: [{
+		uid: "6c833ef6",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 2048L
+	}],
+	rewards: [{
+		uid: "871c3425",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "1549c953",
+		type: "loot",
+		table: 3
+	}]
+}

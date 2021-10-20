@@ -1,0 +1,31 @@
+{
+	x: -19.0d,
+	y: -4.5d,
+	dependencies: [
+		"fc9d0886"
+	],
+	tasks: [{
+		uid: "1204bf81",
+		type: "item",
+		items: [{
+			item: "rats:pirat_hat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67764640",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c4beafe8",
+		type: "item",
+		item: "rats:rat_upgrade_buccaneer"
+	},
+	{
+		uid: "33f468aa",
+		type: "loot",
+		table: 3
+	}]
+}

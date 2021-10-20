@@ -1,0 +1,23 @@
+{
+	x: -1.5d,
+	y: 6.5d,
+	tasks: [{
+		uid: "5c149fd2",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tool.shield_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c97502bc",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "76354c8d",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:ender_pearl 16",
+	disable_toast: true,
+	x: 10.05d,
+	y: 1.5d,
+	description: "*Unlocked by completing Introduction*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"189d88b6"
+	],
+	tasks: [{
+		uid: "d8ca7756",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e86d68b1",
+		type: "ftbmoney:money",
+		ftb_money: 160L
+	}]
+}

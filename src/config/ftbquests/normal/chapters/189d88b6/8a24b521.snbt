@@ -1,0 +1,70 @@
+{
+	title: "Ingots, Ingots, Ingots!",
+	x: -2.0d,
+	y: 8.0d,
+	description: "Part Uno",
+	dependencies: [
+		"ae2e1bfa"
+	],
+	tasks: [{
+		uid: "67f2f0c1",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 32L
+	},
+	{
+		uid: "1863647c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 163"
+		}],
+		count: 32L
+	},
+	{
+		uid: "4ef367cf",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 132"
+		}],
+		count: 32L
+	},
+	{
+		uid: "f8cc61c4",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 133"
+		}],
+		count: 32L
+	},
+	{
+		uid: "8d0e79e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotZinc",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any ingotZinc"
+				}
+			}
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "8b51c915",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "cf3877f5",
+		type: "loot",
+		table: 3
+	}]
+}

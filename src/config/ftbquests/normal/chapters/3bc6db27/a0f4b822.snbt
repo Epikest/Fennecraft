@@ -1,0 +1,24 @@
+{
+	x: -17.0d,
+	y: 1.5d,
+	dependencies: [
+		"f52485cf"
+	],
+	tasks: [{
+		uid: "ecabc39c",
+		type: "item",
+		items: [{
+			item: "railcraft:equipment 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f23acf3c",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ab7619ed",
+		type: "loot",
+		table: 4
+	}]
+}

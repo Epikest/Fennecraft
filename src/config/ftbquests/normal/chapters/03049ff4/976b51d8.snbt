@@ -1,0 +1,31 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "785b9af0",
+		type: "stat",
+		icon: "iceandfire:troll_skull",
+		stat: "stat.mobKills",
+		value: 500000
+	}],
+	rewards: [{
+		uid: "2f596318",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "56a6f2db",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "2d44b290",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "7d8369a9",
+		type: "loot",
+		table: 6
+	}]
+}

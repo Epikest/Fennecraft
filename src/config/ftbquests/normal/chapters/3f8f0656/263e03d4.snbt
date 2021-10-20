@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	shape: "gear",
+	description: "See this is why you should balance your budget before buying the parts",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4721713f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:toolupgrade 1 12"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "471c86c8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

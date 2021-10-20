@@ -1,0 +1,27 @@
+{
+	x: -20.5d,
+	y: -11.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"21d77837"
+	],
+	tasks: [{
+		uid: "62b77bf5",
+		type: "item",
+		items: [{
+			item: "theaurorian:strangemeat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5d9264f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "9764b383",
+		type: "loot",
+		table: 4
+	}]
+}

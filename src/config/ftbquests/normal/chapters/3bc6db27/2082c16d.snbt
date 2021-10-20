@@ -1,0 +1,25 @@
+{
+	x: -1.5d,
+	y: -7.0d,
+	dependencies: [
+		"c4490107"
+	],
+	tasks: [{
+		uid: "ca0cfcff",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:plastic"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "4f3b29a2",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "44fce33a",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:coal_block 64",
+	disable_toast: true,
+	x: -5.5d,
+	y: 5.0d,
+	description: "*Unlocked by completing Introduction*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"189d88b6"
+	],
+	tasks: [{
+		uid: "61cd4416",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:coal_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a1ff0ec4",
+		type: "ftbmoney:money",
+		ftb_money: 170L
+	}]
+}

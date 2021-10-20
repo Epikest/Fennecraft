@@ -1,0 +1,26 @@
+{
+	x: -5.5d,
+	y: -15.5d,
+	dependencies: [
+		"00bb95f3",
+		"5cbec7a4"
+	],
+	tasks: [{
+		uid: "146653ea",
+		type: "item",
+		items: [{
+			item: "taiga:imperomite_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "195b804e",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "f9faa7d9",
+		type: "loot",
+		table: 5
+	}]
+}

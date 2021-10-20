@@ -1,0 +1,40 @@
+{
+	title: "&5&lThe End",
+	icon: "minecraft:end_portal_frame",
+	x: 8.5d,
+	y: -5.350000000000001d,
+	shape: "hexagon",
+	description: "Technically it's the end of the game, but I'm sure you'll find other things to do",
+	text: [
+		""
+	],
+	dependencies: [
+		"36443d40"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "aaf0ee5f",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "3a9e4faa",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1df729fa",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "2910042c",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "184a336f",
+		type: "loot",
+		table: 4
+	}]
+}

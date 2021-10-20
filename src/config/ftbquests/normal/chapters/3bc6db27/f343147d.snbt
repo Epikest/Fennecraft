@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: -7.5d,
+	dependencies: [
+		"f392a66d"
+	],
+	tasks: [{
+		uid: "18f24e38",
+		type: "item",
+		items: [{
+			item: "taiga:tiberium_ingot"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9d8c8e4a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "e418f21a",
+		type: "loot",
+		table: 3
+	}]
+}

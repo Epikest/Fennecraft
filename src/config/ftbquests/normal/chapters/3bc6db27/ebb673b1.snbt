@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: -10.5d,
+	shape: "pentagon",
+	dependencies: [
+		"62be6c52",
+		"f18158ab"
+	],
+	tasks: [{
+		uid: "e046dc31",
+		type: "item",
+		items: [{
+			item: "taiga:osram_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "38eaf25d",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "f8027f8e",
+		type: "loot",
+		table: 4
+	}]
+}

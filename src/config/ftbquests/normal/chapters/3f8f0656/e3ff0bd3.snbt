@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"567a3a9f"
+	],
+	tasks: [{
+		uid: "ab455482",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a3c993a0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "cf3ded57",
+		type: "loot",
+		table: 4
+	}]
+}

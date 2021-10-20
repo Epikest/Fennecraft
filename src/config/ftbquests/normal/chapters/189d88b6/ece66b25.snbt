@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -4.5d,
+	shape: "octagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "54056dc9",
+		type: "item",
+		items: [{
+			item: "minecraft:totem_of_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d49fa5b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "4eedee3a",
+		type: "loot",
+		table: 4
+	}]
+}

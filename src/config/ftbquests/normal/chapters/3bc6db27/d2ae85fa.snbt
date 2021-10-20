@@ -1,0 +1,25 @@
+{
+	x: -11.5d,
+	y: -11.5d,
+	dependencies: [
+		"ea7fede6"
+	],
+	tasks: [{
+		uid: "6ccf6b82",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 2"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "618b9ea4",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "341fe54b",
+		type: "loot",
+		table: 4
+	}]
+}

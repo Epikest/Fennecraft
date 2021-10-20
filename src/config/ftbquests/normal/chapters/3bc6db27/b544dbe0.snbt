@@ -1,0 +1,28 @@
+{
+	x: -18.0d,
+	y: 0.5d,
+	dependencies: [
+		"a0f4b822"
+	],
+	tasks: [{
+		uid: "77b8381a",
+		type: "item",
+		items: [{
+			id: "railcraft:locomotive_electric",
+			tag: {
+				model: "railcraft:default"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fdb0704a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "a288c90b",
+		type: "loot",
+		table: 4
+	}]
+}

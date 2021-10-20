@@ -1,0 +1,21 @@
+{
+	x: 5.0d,
+	y: -1.0d,
+	dependencies: [
+		"8d155122"
+	],
+	tasks: [{
+		uid: "ce4f683f",
+		type: "item",
+		items: [{
+			item: "totemic:rattle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e88df2ab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

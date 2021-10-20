@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: -21.0d,
+	dependencies: [
+		"131f968a",
+		"adc0ced2"
+	],
+	tasks: [{
+		uid: "55174473",
+		type: "item",
+		items: [{
+			item: "taiga:nihilite_ingot"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "3c046a16",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "ffb7f38c",
+		type: "loot",
+		table: 6
+	}]
+}

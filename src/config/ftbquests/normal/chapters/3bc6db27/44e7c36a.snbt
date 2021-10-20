@@ -1,0 +1,28 @@
+{
+	x: -16.5d,
+	y: 0.5d,
+	dependencies: [
+		"f52485cf"
+	],
+	tasks: [{
+		uid: "df6cb875",
+		type: "item",
+		items: [{
+			id: "railcraft:locomotive_steam_solid",
+			tag: {
+				model: "railcraft:default"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a639f07",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dad71935",
+		type: "loot",
+		table: 4
+	}]
+}

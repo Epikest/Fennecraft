@@ -1,0 +1,29 @@
+{
+	title: "Slow-Acting Radaway",
+	x: 6.5d,
+	y: 7.0d,
+	description: "Radical!",
+	text: [
+		""
+	],
+	dependencies: [
+		"1cdc3419"
+	],
+	tasks: [{
+		uid: "8da48110",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radaway_slow"
+		}]
+	}],
+	rewards: [{
+		uid: "ab883df2",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	},
+	{
+		uid: "03e19128",
+		type: "loot",
+		table: 3
+	}]
+}

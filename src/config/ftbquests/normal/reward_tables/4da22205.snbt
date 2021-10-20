@@ -1,0 +1,1806 @@
+{
+	title: "Enhanced Crate",
+	icon: "midnight:shadowroot_chest",
+	loot_size: 3,
+	rewards: [{
+		item: {
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.25f,
+					FreeModifiers: 3,
+					Durability: 155,
+					HarvestLevel: 1,
+					Attack: 2.625f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.1f,
+					MiningSpeed: 8.25f,
+					FreeModifiers: 3,
+					Durability: 155,
+					HarvestLevel: 1,
+					Attack: 2.625f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"magnesium",
+						"magnesium"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "lightweight",
+					color: -1851937,
+					level: 1
+				},
+				{
+					identifier: "holy",
+					color: -1851937,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"lightweight",
+					"holy",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 100
+	},
+	{
+		item: "mekanism:salt",
+		count: 8,
+		random_bonus: 8,
+		weight: 120
+	},
+	{
+		item: "harvestcraft:fishandchipsitem",
+		count: 3,
+		random_bonus: 3,
+		weight: 204
+	},
+	{
+		item: "twilightforest:fire_jet",
+		weight: 100
+	},
+	{
+		item: "harvestcraft:cobblestonecobbleritem",
+		count: 2,
+		random_bonus: 2,
+		weight: 204
+	},
+	{
+		item: "iceandfire:silver_sword",
+		weight: 100
+	},
+	{
+		item: "harvestcraft:spaghettidinneritem",
+		count: 2,
+		weight: 120
+	},
+	{
+		item: {
+			id: "tconstruct:cleaver",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 33s
+				}],
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.265f,
+					FreeModifiers: 3,
+					Durability: 2718,
+					HarvestLevel: 0,
+					Attack: 3.0f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.265f,
+					FreeModifiers: 3,
+					Durability: 2718,
+					HarvestLevel: 0,
+					Attack: 3.0f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"sponge",
+						"sponge",
+						"sponge",
+						"sponge"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "squeaky",
+					color: -3486642,
+					level: 1
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"squeaky",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 100
+	},
+	{
+		item: "minecraft:slime",
+		count: 2,
+		random_bonus: 2,
+		weight: 204
+	},
+	{
+		item: "tconstruct:firewood",
+		count: 4,
+		random_bonus: 4,
+		weight: 1737
+	},
+	{
+		item: "improvedbackpacks:ender_backpack",
+		weight: 156
+	},
+	{
+		item: "harvestcraft:epicbaconitem",
+		random_bonus: 1,
+		weight: 105
+	},
+	{
+		item: "harvestcraft:friedfeastitem",
+		random_bonus: 1,
+		weight: 179
+	},
+	{
+		item: "harvestcraft:jaffaitem",
+		weight: 131
+	},
+	{
+		item: "openblocks:golden_egg",
+		weight: 596
+	},
+	{
+		item: "mob_grinding_utils:fan",
+		weight: 100
+	},
+	{
+		item: "twilightforest:peacock_fan",
+		weight: 156
+	},
+	{
+		item: {
+			id: "cyclicmagic:charm_fire",
+			tag: {}
+		},
+		weight: 156
+	},
+	{
+		item: "cyclicmagic:sprinkler",
+		weight: 131
+	},
+	{
+		item: "mekanism:obsidiantnt",
+		count: 3,
+		weight: 2270
+	},
+	{
+		item: "harvestcraft:delightedmealitem",
+		weight: 131
+	},
+	{
+		item: "openblocks:builder_guide",
+		weight: 143
+	},
+	{
+		item: {
+			id: "tconstruct:large_sword_blade",
+			tag: {
+				Material: "osgloglas"
+			}
+		},
+		weight: 156
+	},
+	{
+		item: "rats:chunky_cheese_token",
+		weight: 3546
+	},
+	{
+		item: "rats:top_hat",
+		weight: 100
+	},
+	{
+		item: "rats:piper_hat",
+		weight: 100
+	},
+	{
+		item: "minecraft:iron_ore",
+		count: 8,
+		random_bonus: 8,
+		weight: 1017
+	},
+	{
+		item: "minecraft:piston",
+		count: 2,
+		weight: 100
+	},
+	{
+		item: "openblocks:hang_glider",
+		weight: 109
+	},
+	{
+		item: "minecraft:iron_ingot",
+		count: 8,
+		random_bonus: 8,
+		weight: 1017
+	},
+	{
+		item: "minecraft:redstone",
+		count: 8,
+		random_bonus: 8,
+		weight: 120
+	},
+	{
+		item: "minecraft:dye 1 4",
+		count: 8,
+		random_bonus: 8,
+		weight: 2967
+	},
+	{
+		item: "thermalfoundation:material 1 160",
+		count: 4,
+		random_bonus: 4,
+		weight: 349
+	},
+	{
+		item: "enderio:item_alloy_ingot",
+		count: 2,
+		random_bonus: 2,
+		weight: 156
+	},
+	{
+		item: "minecraft:gold_ingot",
+		count: 4,
+		random_bonus: 4,
+		weight: 2967
+	},
+	{
+		item: "minecraft:diamond",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "minecraft:obsidian",
+		count: 4,
+		random_bonus: 4,
+		weight: 120
+	},
+	{
+		item: "techreborn:reinforced_glass",
+		count: 2,
+		weight: 712
+	},
+	{
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		},
+		count: 2,
+		weight: 143
+	},
+	{
+		item: {
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			}
+		},
+		weight: 244
+	},
+	{
+		item: "biomesoplenty:terrarium 1 6",
+		weight: 244
+	},
+	{
+		item: "biomesoplenty:terrarium 1 1",
+		weight: 244
+	},
+	{
+		item: "biomesoplenty:terrarium 1 11",
+		weight: 244
+	},
+	{
+		item: "minecraft:quartz",
+		count: 2,
+		random_bonus: 2,
+		weight: 120
+	},
+	{
+		item: "chisel:waterstone",
+		count: 2,
+		random_bonus: 2,
+		weight: 156
+	},
+	{
+		item: "chisel:lavastone",
+		count: 2,
+		random_bonus: 2,
+		weight: 156
+	},
+	{
+		item: "techreborn:rubypickaxe",
+		weight: 143
+	},
+	{
+		item: "actuallyadditions:item_leaf_blower",
+		weight: 131
+	},
+	{
+		item: "actuallyadditions:item_coffee",
+		weight: 156
+	},
+	{
+		item: {
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: "tconstruct:edible 1 11",
+		random_bonus: 1,
+		weight: 137
+	},
+	{
+		item: "thaumcraft:traveller_boots",
+		weight: 349
+	},
+	{
+		item: "immersiveengineering:wooden_device1 1 1",
+		weight: 156
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersivepetroleum:speedboat"
+		},
+		weight: 349
+	},
+	{
+		item: "rats:rat_capture_net",
+		weight: 156
+	},
+	{
+		item: "rats:potato_kinishes",
+		weight: 596
+	},
+	{
+		item: "harvestcraft:sundayroastitem",
+		weight: 171
+	},
+	{
+		item: "tconstruct:throwball 1 1",
+		count: 2,
+		random_bonus: 2,
+		weight: 267
+	},
+	{
+		item: "rats:plague_doctorate",
+		weight: 349
+	},
+	{
+		item: "rats:confit_byaldi",
+		weight: 3546
+	},
+	{
+		item: "malisisdoors:verticalhatch",
+		weight: 156
+	},
+	{
+		item: "minecraft:golden_apple",
+		weight: 1454
+	},
+	{
+		item: "buildcraftbuilders:quarry",
+		weight: 931
+	},
+	{
+		item: {
+			id: "thermalfoundation:tome_experience",
+			tag: {}
+		},
+		weight: 120
+	},
+	{
+		item: "openblocks:elevator",
+		count: 2,
+		weight: 171
+	},
+	{
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 11s
+		},
+		weight: 131
+	},
+	{
+		item: "openblocks:village_highlighter",
+		weight: 349
+	},
+	{
+		item: "openblocks:beartrap",
+		weight: 109
+	},
+	{
+		item: "thermalfoundation:tool.shears_diamond",
+		weight: 292
+	},
+	{
+		item: "iceandfire:dragon_flute",
+		weight: 417
+	},
+	{
+		item: "iceandfire:siren_flute",
+		weight: 417
+	},
+	{
+		item: "harvestcraft:swedishmeatballsitem",
+		count: 2,
+		weight: 204
+	},
+	{
+		item: "techreborn:alarm",
+		weight: 131
+	},
+	{
+		item: "actuallyadditions:item_solidified_experience",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "iceandfire:fire_stew",
+		weight: 131
+	},
+	{
+		item: "iceandfire:hydra_arrow",
+		count: 2,
+		random_bonus: 2,
+		weight: 120
+	},
+	{
+		item: "inventorypets:patreon_head",
+		weight: 596
+	},
+	{
+		item: "techreborn:uumatter",
+		count: 4,
+		random_bonus: 4,
+		weight: 1017
+	},
+	{
+		item: "techreborn:ingot 1 14",
+		random_bonus: 1,
+		weight: 204
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "xu_evil_metal"
+			}
+		},
+		weight: 204
+	},
+	{
+		item: "minecraft:dragon_breath",
+		count: 2,
+		random_bonus: 2,
+		weight: 1017
+	},
+	{
+		item: "rats:creative_cheese",
+		weight: 3546
+	},
+	{
+		item: "rats:arcane_technology",
+		weight: 596
+	},
+	{
+		item: "twilightforest:twilight_sapling 1 9",
+		weight: 100
+	},
+	{
+		item: "iceandfire:pixie_wand",
+		weight: 349
+	},
+	{
+		item: "iceandfire:hippocampus_slapper",
+		weight: 3546
+	},
+	{
+		item: "iceandfire:rotten_egg",
+		count: 2,
+		weight: 244
+	},
+	{
+		item: "twilightforest:triple_bow",
+		weight: 1017
+	},
+	{
+		item: "twilightforest:ice_bow",
+		weight: 1017
+	},
+	{
+		item: "twilightforest:fiery_blood",
+		weight: 1454
+	},
+	{
+		item: "twilightforest:miniature_structure 1 5",
+		weight: 1454
+	},
+	{
+		item: "twilightforest:miniature_structure",
+		weight: 1454
+	},
+	{
+		item: "twilightforest:glass_sword",
+		weight: 596
+	},
+	{
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "knightmetal"
+			}
+		},
+		weight: 596
+	},
+	{
+		item: {
+			id: "conarm:boots",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 7773,
+					Defense: 37.5f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 7773,
+					Defense: 37.5f
+				},
+				TinkerData: {
+					Materials: [
+						"xu_evil_metal",
+						"xu_evil_metal",
+						"xu_evil_metal"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "xu_withering",
+					color: -131160,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"xu_withering",
+					"leveling_armor"
+				]
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: "minecraft:sponge",
+		count: 4,
+		random_bonus: 4,
+		weight: 2967
+	},
+	{
+		item: "techreborn:ingot 1 25",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "mekanism:ingot",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "twilightforest:trophy_pedestal",
+		weight: 1454
+	},
+	{
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "psigem"
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: {
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "dragonsteel_fire"
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: "tconstruct:materials 1 19",
+		weight: 596
+	},
+	{
+		item: "tconstruct:materials 1 16",
+		weight: 1454
+	},
+	{
+		item: {
+			id: "tconstruct:shard",
+			tag: {
+				Material: "xu_evil_metal"
+			}
+		},
+		weight: 596
+	},
+	{
+		item: {
+			id: "tconstruct:bow_limb",
+			tag: {
+				Material: "electrumflux"
+			}
+		},
+		weight: 244
+	},
+	{
+		item: {
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "weezer"
+			}
+		},
+		weight: 244
+	},
+	{
+		item: {
+			id: "tconstruct:tough_binding",
+			tag: {
+				Material: "mod_lavacow.moltenbeef"
+			}
+		},
+		weight: 381
+	},
+	{
+		item: {
+			id: "tconstruct:longsword",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.85f,
+					FreeModifiers: 3,
+					Durability: 829,
+					HarvestLevel: 4,
+					Attack: 3.3125f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 2.85f,
+					FreeModifiers: 3,
+					Durability: 829,
+					HarvestLevel: 4,
+					Attack: 3.3125f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"violium",
+						"violium",
+						"violium"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "arcane",
+					color: -5635926,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"arcane",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 244
+	},
+	{
+		item: {
+			id: "mekanism:electricbow",
+			tag: {
+				mekData: {
+					energyStored: 120000.0d
+				}
+			}
+		},
+		weight: 596
+	},
+	{
+		item: {
+			id: "mekanism:robit",
+			tag: {
+				mekData: {
+					energyStored: 100000.0d
+				}
+			}
+		},
+		weight: 596
+	},
+	{
+		item: {
+			id: "mekanism:atomicdisassembler",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		},
+		weight: 596
+	},
+	{
+		item: "mekanism:scubatank",
+		weight: 596
+	},
+	{
+		item: {
+			id: "mekanism:freerunners",
+			tag: {
+				mekData: {
+					energyStored: 64000.0d
+				}
+			}
+		},
+		weight: 156
+	},
+	{
+		item: {
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "xu_demonic_metal"
+			}
+		},
+		weight: 417
+	},
+	{
+		item: "waystones:waystone",
+		weight: 244
+	},
+	{
+		item: "nuclearcraft:legs_hard_carbon",
+		weight: 596
+	},
+	{
+		item: "nuclearcraft:legs_tough",
+		weight: 1454
+	},
+	{
+		item: "harvestcraft:deviledeggitem",
+		weight: 100
+	},
+	{
+		item: "harvestcraft:blueberrypancakesitem",
+		count: 2,
+		random_bonus: 2,
+		weight: 204
+	},
+	{
+		item: "iceandfire:amphithere_macuahuitl",
+		weight: 3546
+	},
+	{
+		item: {
+			id: "tconstruct:battlesign",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 38,
+					HarvestLevel: 1,
+					Attack: 4.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.0f,
+					FreeModifiers: 3,
+					Durability: 38,
+					HarvestLevel: 1,
+					Attack: 4.5f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"mod_lavacow.scythe_claw",
+						"mod_lavacow.scythe_claw"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "coldblooded",
+					color: -10330530,
+					level: 1
+				},
+				{
+					identifier: "mod_lavacow.famine",
+					color: -10330530,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"coldblooded",
+					"mod_lavacow.famine",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 244
+	},
+	{
+		item: {
+			id: "tconstruct:pan_head",
+			tag: {
+				Material: "electrumflux"
+			}
+		},
+		weight: 244
+	},
+	{
+		item: {
+			id: "tconstruct:broad_axe_head",
+			tag: {
+				Material: "electrumflux"
+			}
+		},
+		weight: 381
+	},
+	{
+		item: "thermalfoundation:material 1 130",
+		count: 8,
+		random_bonus: 8,
+		weight: 2967
+	},
+	{
+		item: "thermalfoundation:material 1 129",
+		count: 8,
+		random_bonus: 8,
+		weight: 349
+	},
+	{
+		item: "thermalfoundation:material 1 128",
+		count: 8,
+		random_bonus: 8,
+		weight: 349
+	},
+	{
+		item: {
+			id: "tconstruct:large_plate",
+			tag: {
+				Material: "fierymetal"
+			}
+		},
+		weight: 498
+	},
+	{
+		item: "iceandfire:dread_stone_tile",
+		weight: 1454
+	},
+	{
+		item: "iceandfire:dread_torch",
+		weight: 1454
+	},
+	{
+		item: "iceandfire:dread_shard",
+		weight: 1454
+	},
+	{
+		item: "rats:ratlantean_flame",
+		count: 2,
+		weight: 244
+	},
+	{
+		item: {
+			id: "tconstruct:hammer_head",
+			tag: {
+				Material: "ebonypsi"
+			}
+		},
+		weight: 3546
+	},
+	{
+		item: {
+			id: "powersuits:power_fist",
+			tag: {
+				MMModItem: {
+					commonValues: {},
+					render: {
+						powerfist_left.supportrightfront: {
+							part: "supportrightfront",
+							model: "powerfist_left"
+						},
+						powerfist.palm: {
+							part: "palm",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist.mainarm: {
+							part: "mainarm",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal_left.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing_left.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.supportbaseright: {
+							part: "supportbaseright",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal.index2: {
+							part: "index2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_firing_left.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_normal.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_left.palm: {
+							part: "palm",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_normal.index1: {
+							part: "index1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing_left.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_normal.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing_left.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_normal.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_left.crystalholder: {
+							part: "crystalholder",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright5: {
+							part: "supportright5",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright4: {
+							part: "supportright4",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright3: {
+							part: "supportright3",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright2: {
+							part: "supportright2",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportright1: {
+							part: "supportright1",
+							model: "powerfist_left"
+						},
+						powerfist.supportleftfront: {
+							part: "supportleftfront",
+							model: "powerfist"
+						},
+						powerfist.crystalholder: {
+							part: "crystalholder",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing_left.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_left.fingerguard: {
+							part: "fingerguard",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing_left.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.armorright: {
+							part: "armorright",
+							model: "powerfist"
+						},
+						powerfist_left.crystal: {
+							part: "crystal",
+							model: "powerfist_left"
+						},
+						powerfist.wristtopright: {
+							part: "wristtopright",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_firing_left.index2: {
+							part: "index2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_left.armorright: {
+							part: "armorright",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_firing_left.index1: {
+							part: "index1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.supportbaseleft: {
+							part: "supportbaseleft",
+							model: "powerfist"
+						},
+						powerfist.wristbottomleft: {
+							part: "wristbottomleft",
+							model: "powerfist"
+						},
+						powerfist_left.supportbaseright: {
+							part: "supportbaseright",
+							model: "powerfist_left"
+						},
+						colours: [I;
+							-1
+						],
+						powerfist_left.wristbottomright: {
+							part: "wristbottomright",
+							model: "powerfist_left"
+						},
+						powerfist.supportright1: {
+							part: "supportright1",
+							model: "powerfist"
+						},
+						powerfist_left.supportleftfront: {
+							part: "supportleftfront",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_normal_left.index2: {
+							part: "index2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_firing.index1: {
+							part: "index1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_firing.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_fingers_normal_left.pinky1: {
+							part: "pinky1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_normal_left.index1: {
+							part: "index1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_normal_left.pinky2: {
+							part: "pinky2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist.fingerguard: {
+							part: "fingerguard",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.index2: {
+							part: "index2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.mainarm: {
+							part: "mainarm",
+							model: "powerfist_left"
+						},
+						powerfist.wristtopleft: {
+							part: "wristtopleft",
+							model: "powerfist"
+						},
+						powerfist.crystal: {
+							part: "crystal",
+							model: "powerfist"
+						},
+						powerfist_fingers_normal.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_normal"
+						},
+						powerfist_fingers_normal_left.thumb2: {
+							part: "thumb2",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_fingers_normal_left.thumb1: {
+							part: "thumb1",
+							model: "powerfist_fingers_normal_left"
+						},
+						powerfist_left.wristtopright: {
+							part: "wristtopright",
+							model: "powerfist_left"
+						},
+						powerfist.armorleft: {
+							part: "armorleft",
+							model: "powerfist"
+						},
+						powerfist_left.wristtopleft: {
+							part: "wristtopleft",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing_left.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist_fingers_firing.middlefinger2: {
+							part: "middlefinger2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.supportbaseleft: {
+							part: "supportbaseleft",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing_left.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_firing_left"
+						},
+						powerfist.supportrightfront: {
+							part: "supportrightfront",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.middlefinger1: {
+							part: "middlefinger1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.supportleft5: {
+							part: "supportleft5",
+							model: "powerfist_left"
+						},
+						powerfist.wristbottomright: {
+							part: "wristbottomright",
+							model: "powerfist"
+						},
+						powerfist_fingers_firing.ringfinger1: {
+							part: "ringfinger1",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.wristbottomleft: {
+							part: "wristbottomleft",
+							model: "powerfist_left"
+						},
+						powerfist_fingers_firing.ringfinger2: {
+							part: "ringfinger2",
+							model: "powerfist_fingers_firing"
+						},
+						powerfist_left.supportleft4: {
+							part: "supportleft4",
+							model: "powerfist_left"
+						},
+						powerfist.supportleft5: {
+							part: "supportleft5",
+							model: "powerfist"
+						},
+						powerfist_left.armorleft: {
+							part: "armorleft",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportleft3: {
+							part: "supportleft3",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportleft2: {
+							part: "supportleft2",
+							model: "powerfist_left"
+						},
+						powerfist_left.supportleft1: {
+							part: "supportleft1",
+							model: "powerfist_left"
+						},
+						powerfist.supportright3: {
+							part: "supportright3",
+							model: "powerfist"
+						},
+						powerfist.supportleft2: {
+							part: "supportleft2",
+							model: "powerfist"
+						},
+						powerfist.supportright2: {
+							part: "supportright2",
+							model: "powerfist"
+						},
+						powerfist.supportleft1: {
+							part: "supportleft1",
+							model: "powerfist"
+						},
+						powerfist.supportright5: {
+							part: "supportright5",
+							model: "powerfist"
+						},
+						powerfist.supportleft4: {
+							part: "supportleft4",
+							model: "powerfist"
+						},
+						powerfist.supportright4: {
+							part: "supportright4",
+							model: "powerfist"
+						},
+						powerfist.supportleft3: {
+							part: "supportleft3",
+							model: "powerfist"
+						}
+					}
+				}
+			}
+		},
+		weight: 596
+	},
+	{
+		item: {
+			id: "powersuits:powerarmor_torso",
+			tag: {
+				MMModItem: {
+					commonValues: {}
+				}
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: "rats:marbled_cheese_raw",
+		weight: 1454
+	},
+	{
+		item: "rats:string_cheese",
+		weight: 244
+	},
+	{
+		item: {
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.15f,
+					FreeModifiers: 3,
+					Durability: 1221,
+					HarvestLevel: 4,
+					Attack: 5.625f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 6.15f,
+					FreeModifiers: 3,
+					Durability: 1221,
+					HarvestLevel: 4,
+					Attack: 5.625f
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"auroriansteel",
+						"auroriansteel",
+						"auroriansteel"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "established",
+					color: -10472705,
+					level: 1
+				},
+				{
+					identifier: "aurorianempowered",
+					color: -10472705,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"established",
+					"aurorianempowered",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: "theaurorian:aurorianitesword",
+		weight: 1454
+	},
+	{
+		item: "theaurorian:aurorianstonesword",
+		weight: 596
+	},
+	{
+		item: "theaurorian:ceruleanarrow",
+		count: 2,
+		random_bonus: 2,
+		weight: 156
+	},
+	{
+		item: "theaurorian:umbrashield",
+		weight: 3546
+	},
+	{
+		item: "theaurorian:livingdiviningrod",
+		weight: 1454
+	},
+	{
+		item: {
+			id: "theaurorian:locator",
+			tag: {}
+		},
+		weight: 3546
+	},
+	{
+		item: "theaurorian:moonstoneaxe",
+		weight: 3546
+	},
+	{
+		item: {
+			id: "tconstruct:tough_tool_rod",
+			tag: {
+				Material: "electrumflux"
+			}
+		},
+		weight: 3546
+	},
+	{
+		item: {
+			id: "tconstruct:scythe_head",
+			tag: {
+				Material: "electrumflux"
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: {
+			id: "tconstruct:frypan",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.14f,
+					FreeModifiers: 3,
+					Durability: 2185,
+					HarvestLevel: 4,
+					Attack: 10.545f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 10.14f,
+					FreeModifiers: 3,
+					Durability: 2185,
+					HarvestLevel: 4,
+					Attack: 10.545f
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"electrumflux",
+						"electrumflux"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "energyrepair",
+					color: -2709,
+					level: 1
+				},
+				{
+					identifier: "energyeater",
+					color: -2709,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"energyrepair",
+					"energyeater",
+					"toolleveling"
+				]
+			}
+		},
+		weight: 1454
+	},
+	{
+		item: {
+			id: "tconstruct:large_sword_blade",
+			tag: {
+				Material: "electrumflux"
+			}
+		},
+		weight: 596
+	},
+	{
+		item: "cookingforblockheads:toaster",
+		weight: 100
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 2,
+		random_bonus: 2,
+		weight: 1017
+	},
+	{
+		item: "industrialforegoing:pink_slime_ingot",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "nuclearcraft:ingot 1 3",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "nuclearcraft:ingot 1 5",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "nuclearcraft:ingot 1 6",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "nuclearcraft:ingot 1 7",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "nuclearcraft:ingot 1 9",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "nuclearcraft:ingot 1 10",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "nuclearcraft:ingot 1 11",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "nuclearcraft:smore",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "techreborn:ingot 1 3",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "techreborn:ingot 1 15",
+		random_bonus: 1,
+		weight: 305
+	},
+	{
+		item: "minecraft:emerald",
+		count: 4,
+		random_bonus: 4,
+		weight: 596
+	},
+	{
+		item: "railcraft:ingot 1 8",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "techreborn:ingot 1 21",
+		random_bonus: 1,
+		weight: 305
+	},
+	{
+		item: "thermalfoundation:material 1 133",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "thermalfoundation:material 1 134",
+		count: 2,
+		random_bonus: 2,
+		weight: 2270
+	},
+	{
+		item: "thermalfoundation:material 1 135",
+		random_bonus: 1,
+		weight: 305
+	},
+	{
+		item: "tconstruct:ingots 1 4",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "nuclearcraft:chest_boron_nitride",
+		weight: 3546
+	},
+	{
+		item: "mob_grinding_utils:null_sword",
+		weight: 3546
+	},
+	{
+		item: "techreborn:part 1 29",
+		count: 2,
+		random_bonus: 2,
+		weight: 267
+	},
+	{
+		item: "nuclearcraft:part 1 11",
+		weight: 156
+	},
+	{
+		item: "enderio:item_soul_vial",
+		weight: 120
+	},
+	{
+		item: "ironchest:iron_chest 1 2",
+		weight: 596
+	},
+	{
+		item: "actuallyadditions:item_food 1 4",
+		weight: 120
+	},
+	{
+		item: {
+			id: "cyclicmagic:dice",
+			tag: {
+				display: {
+					Lore: [
+						":)"
+					]
+				}
+			}
+		},
+		weight: 171
+	},
+	{
+		item: "cyclicmagic:sign_editor",
+		count: 2,
+		random_bonus: 2,
+		weight: 596
+	},
+	{
+		item: "harvestcraft:jellybeansitem",
+		count: 2,
+		random_bonus: 2,
+		weight: 349
+	},
+	{
+		item: "cyclicmagic:ender_dungeon",
+		weight: 349
+	},
+	{
+		item: "cyclicmagic:horse_upgrade_health",
+		weight: 156
+	},
+	{
+		item: "cyclicmagic:tool_torch_launcher",
+		weight: 156
+	},
+	{
+		item: "thermalfoundation:material 1 131",
+		count: 8,
+		random_bonus: 8,
+		weight: 2967
+	},
+	{
+		item: {
+			id: "twilightforest:fiery_sword",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 20s
+				}]
+			}
+		},
+		weight: 3546
+	}],
+	loot_crate: {
+		string_id: "enhanced_crate",
+		color: 1813280,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

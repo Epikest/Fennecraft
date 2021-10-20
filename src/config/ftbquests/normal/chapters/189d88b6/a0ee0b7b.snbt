@@ -1,0 +1,27 @@
+{
+	x: -7.5d,
+	y: -4.0d,
+	description: "Building has never been this easy!",
+	dependencies: [
+		"915cf001"
+	],
+	tasks: [{
+		uid: "0b5bce0c",
+		type: "item",
+		items: [{
+			item: "extrautils2:itembuilderswand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5df4be9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "bb1a5ba8",
+		type: "loot",
+		table: 3
+	}]
+}

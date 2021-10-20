@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "71a55cee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					effectiveMaxDamage: 5
+				}
+			},
+			id: "treasure2:sapphire_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a527a001",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c6e889be",
+		type: "loot",
+		table: 3
+	}]
+}

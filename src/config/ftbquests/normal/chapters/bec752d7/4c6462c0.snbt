@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	dependencies: [
+		"a1cb5430"
+	],
+	tasks: [{
+		uid: "fd044850",
+		type: "item",
+		items: [{
+			item: "totemic:medicine_bag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "09aad842",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2cf40ec8",
+		type: "loot",
+		table: 3
+	}]
+}

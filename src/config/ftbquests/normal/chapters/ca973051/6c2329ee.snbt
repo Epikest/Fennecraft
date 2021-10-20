@@ -1,0 +1,26 @@
+{
+	x: -13.0d,
+	y: -10.0d,
+	dependencies: [
+		"e8b024e5"
+	],
+	tasks: [{
+		uid: "1567eb5a",
+		type: "item",
+		items: [{
+			item: "twilightforest:minotaur_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bff78b45",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "51e23762",
+		type: "loot",
+		table: 4
+	}]
+}

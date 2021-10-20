@@ -1,0 +1,26 @@
+{
+	x: -5.5d,
+	y: -13.5d,
+	shape: "pentagon",
+	dependencies: [
+		"656fea6e"
+	],
+	tasks: [{
+		uid: "b212b7fa",
+		type: "item",
+		items: [{
+			item: "taiga:prometheum_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "9fb96429",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b1aa0ed9",
+		type: "loot",
+		table: 5
+	}]
+}

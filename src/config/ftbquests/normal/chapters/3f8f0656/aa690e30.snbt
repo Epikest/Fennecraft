@@ -1,0 +1,37 @@
+{
+	title: "The search for a durable and sturdy enough material to craft advanced technology",
+	x: 0.0d,
+	y: -3.0d,
+	shape: "diamond",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1b64512d",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}]
+	}],
+	rewards: [{
+		uid: "d6c9e666",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "85ee2550",
+		type: "item",
+		item: "mekanism:obsidiantnt",
+		count: 3
+	},
+	{
+		uid: "461c19cd",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "80622124",
+		type: "loot",
+		table: 4
+	}]
+}

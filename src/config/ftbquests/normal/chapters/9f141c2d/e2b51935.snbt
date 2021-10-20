@@ -1,0 +1,21 @@
+{
+	icon: "extrautils2:compresseddirt 64 1",
+	disable_toast: true,
+	x: -1.0d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e699275a",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "extrautils2:compresseddirt 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "fee3bfa5",
+		type: "ftbmoney:money",
+		ftb_money: 95L
+	}]
+}

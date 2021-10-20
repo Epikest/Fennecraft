@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "69e9d8a8",
+		type: "item",
+		items: [{
+			item: "iceandfire:cyclops_eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8024ac8d",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "b88cb6be",
+		type: "loot",
+		table: 5
+	}]
+}

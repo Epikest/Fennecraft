@@ -1,0 +1,33 @@
+{
+	title: "16x Grain",
+	icon: "minecraft:wheat 16",
+	disable_toast: true,
+	x: -9.5d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "dd9985c2",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllgrain",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllgrain"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d8f3af2b",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}
