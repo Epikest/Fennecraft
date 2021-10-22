@@ -89,7 +89,7 @@
   "ruins": "17.2",
   "phosphor-lighting": "1.12.2-0.2.7",
   "ftbutilities": "5.4.1.131",
-  "dsurround": "3.6.2.1",
+  "dsurround": "@VERSION@",
   "cyclicmagic": "1.20.11",
   "ironchest": "1.12.2-7.0.67.844",
   "minecraft": "1.12.2",

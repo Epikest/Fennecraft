@@ -9,48 +9,48 @@ import loottweaker.vanilla.loot.Functions;
 val loot_table = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 val main = loot_table.addPool("cdl_loot", 0, 1, 0, 1);
 
-main.addItemEntry(<minecraft:iron_sword>.withTag({display: {Name: "Sword of Rexaura", Lore:["Tarnished and beaten, but still suprisingly sharp to the touch..."]}, ench:[{id:16,lvl:5}, {id:34,lvl:3}]}), 1, 1, [Functions.setDamage(0.10, 0.30)], []);
-main.addItemEntry(<minecraft:bow>.withTag({display: {Name: "Archer's Bow", Lore:["The string sparks with magic..."]}, ench:[{id:48,lvl:5}, {id:51,lvl:1}]}), 2, 1, [Functions.setDamage(0.10, 0.50)], []);
-main.addItemEntry(<minecraft:fishing_rod>.withTag({display: {Name: "Mystical Fishing Rod", Lore:["Worn, but still pulsating with the spirit of the seas..."]}, ench:[{id:61,lvl:4}, {id:62,lvl:3}]}), 3, 1, [Functions.setDamage(0.10, 0.20)], []);
-main.addItemEntry(<minecraft:stick>.withTag({display: {Name: "Enchanted Stick", Lore:["It resists your grasp..."]}, ench:[{id:19,lvl:3}]}), 3, 1, [], []);
-main.addItemEntry(<minecraft:golden_sword>.withTag({display: {Name: "Thief's Sword", Lore:["You feel the strange urge to steal something..."]}, ench:[{id:21,lvl:3}]}), 3, 1, [Functions.setDamage(0.20, 0.80)], []);
-main.addItemEntry(<minecraft:golden_horse_armor>.withTag({display: {Name: "Royal Horse Armor", Lore:["Taylored to Caligula's horse..."]}, ench:[{id:0,lvl:2}]}), 2, 1, [], []);
-main.addItemEntry(<minecraft:iron_chestplate>.withTag({display: {Name: "Stable Chestplate", Lore:["Sturdy, solid, seems like it could take a couple blows..."]}, ench:[{id:0,lvl:4}]}), 1, 1, [Functions.setDamage(0.00, 0.80)], []);
-main.addItemEntry(<minecraft:iron_helmet>.withTag({display: {Name: "Diver's Helmet", Lore:["Attuned to the depths of the seas..."]}, ench:[{id:6,lvl:1}, {id:8,lvl:3}]}), 2, 1, [Functions.setDamage(0.00, 0.80)], []);
-main.addItemEntry(<minecraft:diamond>.withTag({display: {Name: "Blood Diamond", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 1, 1, [], []);
-main.addItemEntry(<minecraft:leather_boots>.withTag({display: {Name: "Diver's Boots", Lore:["Attuned to the depths of the seas..."]}, ench:[{id:6,lvl:1}, {id:8,lvl:3}]}), 2, 1, [Functions.setDamage(0.00, 0.80)], []);
+main.addItemEntryHelper(<minecraft:iron_sword>.withTag({display: {Name: "Sword of Rexaura", Lore:["Tarnished and beaten, but still suprisingly sharp to the touch..."]}, ench:[{id:16,lvl:5}, {id:34,lvl:3}]}), 1, 1, [Functions.setDamage(0.10, 0.30)], []);
+main.addItemEntryHelper(<minecraft:bow>.withTag({display: {Name: "Archer's Bow", Lore:["The string sparks with magic..."]}, ench:[{id:48,lvl:5}, {id:51,lvl:1}]}), 2, 1, [Functions.setDamage(0.10, 0.50)], []);
+main.addItemEntryHelper(<minecraft:fishing_rod>.withTag({display: {Name: "Mystical Fishing Rod", Lore:["Worn, but still pulsating with the spirit of the seas..."]}, ench:[{id:61,lvl:4}, {id:62,lvl:3}]}), 3, 1, [Functions.setDamage(0.10, 0.20)], []);
+main.addItemEntryHelper(<minecraft:stick>.withTag({display: {Name: "Enchanted Stick", Lore:["It resists your grasp..."]}, ench:[{id:19,lvl:3}]}), 3, 1, [], []);
+main.addItemEntryHelper(<minecraft:golden_sword>.withTag({display: {Name: "Thief's Sword", Lore:["You feel the strange urge to steal something..."]}, ench:[{id:21,lvl:3}]}), 3, 1, [Functions.setDamage(0.20, 0.80)], []);
+main.addItemEntryHelper(<minecraft:golden_horse_armor>.withTag({display: {Name: "Royal Horse Armor", Lore:["Taylored to Caligula's horse..."]}, ench:[{id:0,lvl:2}]}), 2, 1, [], []);
+main.addItemEntryHelper(<minecraft:iron_chestplate>.withTag({display: {Name: "Stable Chestplate", Lore:["Sturdy, solid, seems like it could take a couple blows..."]}, ench:[{id:0,lvl:4}]}), 1, 1, [Functions.setDamage(0.00, 0.80)], []);
+main.addItemEntryHelper(<minecraft:iron_helmet>.withTag({display: {Name: "Diver's Helmet", Lore:["Attuned to the depths of the seas..."]}, ench:[{id:6,lvl:1}, {id:8,lvl:3}]}), 2, 1, [Functions.setDamage(0.00, 0.80)], []);
+main.addItemEntryHelper(<minecraft:diamond>.withTag({display: {Name: "Blood Diamond", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 1, 1, [], []);
+main.addItemEntryHelper(<minecraft:leather_boots>.withTag({display: {Name: "Diver's Boots", Lore:["Attuned to the depths of the seas..."]}, ench:[{id:6,lvl:1}, {id:8,lvl:3}]}), 2, 1, [Functions.setDamage(0.00, 0.80)], []);
 
 #nether loot
 val loot_table2 = LootTweaker.getTable("minecraft:chests/nether_bridge");
 val main2 = loot_table2.addPool("cdl_loot", 0, 1, 0, 2);
 
-main2.addItemEntry(<minecraft:diamond_sword>.withTag({display: {Name: "Dante's Sword", Lore:["Grabbing the hilt removes all sensation from your fingers..."]}, ench:[{id:20,lvl:3}, {id:22,lvl:3}, {id:19,lvl:3}, {id:16,lvl:6}]}), 1, 1, [Functions.setDamage(0.10, 0.30)], []);
-main2.addItemEntry(<minecraft:enchanted_book>.withTag({display: {Name: "Dante's Curse", Lore:["The book's pages turn by themselves..."]}, StoredEnchantments:[{id:10,lvl:1}, {id:0,lvl:5}]}), 1, 1, [], []);
-main2.addItemEntry(<minecraft:bow>.withTag({display: {Name: "Dante's Inferno", Lore:["The string is charred and warm to the touch..."]}, ench:[{id:50,lvl:3}, {id:20,lvl:3}]}), 2, 1, [Functions.setDamage(0.10, 0.50)], []);
-main2.addItemEntry(<minecraft:emerald>.withTag({display: {Name: "Blood Emerald", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 3, 1, [], []);
-main2.addItemEntry(<minecraft:flint_and_steel>.withTag({display: {Name: "Pyrolytic Igniter", Lore:["The steel clasp feels to the touch..."]}, ench:[{id:34,lvl:4}, {id:20,lvl:2}]}), 3, 1, [Functions.setDamage(0.30, 0.60)], []);
-main2.addItemEntry(<minecraft:iron_pickaxe>.withTag({display: {Name: "Dante's Pickaxe", Lore:["A pulsating magic emanates from within..."]}, ench:[{id:70,lvl:3}, {id:35,lvl:1}, {id:32,lvl:4}]}), 3, 1, [Functions.setDamage(0.00, 0.10)], []);
-main2.addItemEntry(<minecraft:iron_boots>.withTag({display: {Name: "Glacier Boots", Lore:["Cold to the touch..."]}, ench:[{id:9,lvl:3}]}), 2, 1, [Functions.setDamage(0.00, 0.60)], []);
+main2.addItemEntryHelper(<minecraft:diamond_sword>.withTag({display: {Name: "Dante's Sword", Lore:["Grabbing the hilt removes all sensation from your fingers..."]}, ench:[{id:20,lvl:3}, {id:22,lvl:3}, {id:19,lvl:3}, {id:16,lvl:6}]}), 1, 1, [Functions.setDamage(0.10, 0.30)], []);
+main2.addItemEntryHelper(<minecraft:enchanted_book>.withTag({display: {Name: "Dante's Curse", Lore:["The book's pages turn by themselves..."]}, StoredEnchantments:[{id:10,lvl:1}, {id:0,lvl:5}]}), 1, 1, [], []);
+main2.addItemEntryHelper(<minecraft:bow>.withTag({display: {Name: "Dante's Inferno", Lore:["The string is charred and warm to the touch..."]}, ench:[{id:50,lvl:3}, {id:20,lvl:3}]}), 2, 1, [Functions.setDamage(0.10, 0.50)], []);
+main2.addItemEntryHelper(<minecraft:emerald>.withTag({display: {Name: "Blood Emerald", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 3, 1, [], []);
+main2.addItemEntryHelper(<minecraft:flint_and_steel>.withTag({display: {Name: "Pyrolytic Igniter", Lore:["The steel clasp feels to the touch..."]}, ench:[{id:34,lvl:4}, {id:20,lvl:2}]}), 3, 1, [Functions.setDamage(0.30, 0.60)], []);
+main2.addItemEntryHelper(<minecraft:iron_pickaxe>.withTag({display: {Name: "Dante's Pickaxe", Lore:["A pulsating magic emanates from within..."]}, ench:[{id:70,lvl:3}, {id:35,lvl:1}, {id:32,lvl:4}]}), 3, 1, [Functions.setDamage(0.00, 0.10)], []);
+main2.addItemEntryHelper(<minecraft:iron_boots>.withTag({display: {Name: "Glacier Boots", Lore:["Cold to the touch..."]}, ench:[{id:9,lvl:3}]}), 2, 1, [Functions.setDamage(0.00, 0.60)], []);
 
-main.addItemEntry(<minecraft:iron_chestplate>.withTag({display: {Name: "Stable Chestplate", Lore:["Sturdy, solid, seems like it could take a couple blows..."]}, ench:[{id:0,lvl:4}]}), 3, 1, [Functions.setDamage(0.00, 0.80)], []);
-main.addItemEntry(<minecraft:golden_sword>.withTag({display: {Name: "Thief's Sword", Lore:["You feel the strange urge to steal something..."]}, ench:[{id:21,lvl:3}]}), 4, 1, [Functions.setDamage(0.20, 0.80)], []);
-main.addItemEntry(<minecraft:iron_sword>.withTag({display: {Name: "Sword of Rexaura", Lore:["Tarnished and beaten, but still suprisingly sharp to the touch..."]}, ench:[{id:16,lvl:5}, {id:34,lvl:3}]}), 4, 1, [Functions.setDamage(0.10, 0.30)], []);
+main.addItemEntryHelper(<minecraft:iron_chestplate>.withTag({display: {Name: "Stable Chestplate", Lore:["Sturdy, solid, seems like it could take a couple blows..."]}, ench:[{id:0,lvl:4}]}), 3, 1, [Functions.setDamage(0.00, 0.80)], []);
+main.addItemEntryHelper(<minecraft:golden_sword>.withTag({display: {Name: "Thief's Sword", Lore:["You feel the strange urge to steal something..."]}, ench:[{id:21,lvl:3}]}), 4, 1, [Functions.setDamage(0.20, 0.80)], []);
+main.addItemEntryHelper(<minecraft:iron_sword>.withTag({display: {Name: "Sword of Rexaura", Lore:["Tarnished and beaten, but still suprisingly sharp to the touch..."]}, ench:[{id:16,lvl:5}, {id:34,lvl:3}]}), 4, 1, [Functions.setDamage(0.10, 0.30)], []);
 
 #stronghold loot
 val loot_table3 = LootTweaker.getTable("minecraft:chests/stronghold_crossing");
 val main3 = loot_table3.addPool("cdl_loot", 1, 2, 0, 2);
 
-main3.addItemEntry(<minecraft:iron_sword>.withTag({display: {Name: "Sword of Rexaura", Lore:["Tarnished and beaten, but still suprisingly sharp to the touch..."]}, ench:[{id:16,lvl:5}, {id:34,lvl:3}]}), 3, 1, [Functions.setDamage(0.10, 0.30)], []);
-main3.addItemEntry(<minecraft:bow>.withTag({display: {Name: "Archer's Bow", Lore:["The string sparks with magic..."]}, ench:[{id:48,lvl:5}, {id:51,lvl:1}]}), 4, 1, [Functions.setDamage(0.10, 0.50)], []);
-main3.addItemEntry(<minecraft:iron_chestplate>.withTag({display: {Name: "Stable Chestplate", Lore:["Sturdy, solid, seems like it could take a couple blows..."]}, ench:[{id:0,lvl:4}]}), 4, 1, [Functions.setDamage(0.00, 0.80)], []);
-main3.addItemEntry(<minecraft:diamond>.withTag({display: {Name: "Blood Diamond", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 2, 1, [], []);
-main3.addItemEntry(<minecraft:enchanted_book>.withTag({display: {Name: "Dante's Curse", Lore:["The book's pages turn by themselves..."]}, StoredEnchantments:[{id:10,lvl:1}, {id:0,lvl:5}]}), 2, 1, [], []);
-main3.addItemEntry(<minecraft:bow>.withTag({display: {Name: "Dante's Inferno", Lore:["The string is charred and warm to the touch..."]}, ench:[{id:50,lvl:3}, {id:20,lvl:3}]}), 3, 1, [Functions.setDamage(0.10, 0.50)], []);
-main3.addItemEntry(<minecraft:emerald>.withTag({display: {Name: "Blood Emerald", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 3, 1, [], []);
-main3.addItemEntry(<minecraft:flint_and_steel>.withTag({display: {Name: "Pyrolytic Igniter", Lore:["The steel clasp feels to the touch..."]}, ench:[{id:34,lvl:4}, {id:20,lvl:2}]}), 3, 1, [Functions.setDamage(0.30, 0.60)], []);
-main3.addItemEntry(<minecraft:iron_pickaxe>.withTag({display: {Name: "Dante's Pickaxe", Lore:["A pulsating magic emanates from within..."]}, ench:[{id:70,lvl:3}, {id:35,lvl:1}, {id:32,lvl:4}]}), 3, 1, [Functions.setDamage(0.00, 0.10)], []);
-main3.addItemEntry(<minecraft:iron_boots>.withTag({display: {Name: "Glacier Boots", Lore:["Cold to the touch..."]}, ench:[{id:9,lvl:3}]}), 3, 1, [Functions.setDamage(0.00, 0.60)], []);
-main3.addItemEntry(<minecraft:diamond_sword>.withTag({display: {Name: "Dante's Sword", Lore:["Grabbing the hilt removes all sensation from your fingers..."]}, ench:[{id:20,lvl:3}, {id:22,lvl:3}, {id:19,lvl:3}, {id:16,lvl:6}]}), 3, 1, [Functions.setDamage(0.10, 0.30)], []);
+main3.addItemEntryHelper(<minecraft:iron_sword>.withTag({display: {Name: "Sword of Rexaura", Lore:["Tarnished and beaten, but still suprisingly sharp to the touch..."]}, ench:[{id:16,lvl:5}, {id:34,lvl:3}]}), 3, 1, [Functions.setDamage(0.10, 0.30)], []);
+main3.addItemEntryHelper(<minecraft:bow>.withTag({display: {Name: "Archer's Bow", Lore:["The string sparks with magic..."]}, ench:[{id:48,lvl:5}, {id:51,lvl:1}]}), 4, 1, [Functions.setDamage(0.10, 0.50)], []);
+main3.addItemEntryHelper(<minecraft:iron_chestplate>.withTag({display: {Name: "Stable Chestplate", Lore:["Sturdy, solid, seems like it could take a couple blows..."]}, ench:[{id:0,lvl:4}]}), 4, 1, [Functions.setDamage(0.00, 0.80)], []);
+main3.addItemEntryHelper(<minecraft:diamond>.withTag({display: {Name: "Blood Diamond", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 2, 1, [], []);
+main3.addItemEntryHelper(<minecraft:enchanted_book>.withTag({display: {Name: "Dante's Curse", Lore:["The book's pages turn by themselves..."]}, StoredEnchantments:[{id:10,lvl:1}, {id:0,lvl:5}]}), 2, 1, [], []);
+main3.addItemEntryHelper(<minecraft:bow>.withTag({display: {Name: "Dante's Inferno", Lore:["The string is charred and warm to the touch..."]}, ench:[{id:50,lvl:3}, {id:20,lvl:3}]}), 3, 1, [Functions.setDamage(0.10, 0.50)], []);
+main3.addItemEntryHelper(<minecraft:emerald>.withTag({display: {Name: "Blood Emerald", Lore:["It looks... corrupted?"]}, ench:[{id:71,lvl:1}]}), 3, 1, [], []);
+main3.addItemEntryHelper(<minecraft:flint_and_steel>.withTag({display: {Name: "Pyrolytic Igniter", Lore:["The steel clasp feels to the touch..."]}, ench:[{id:34,lvl:4}, {id:20,lvl:2}]}), 3, 1, [Functions.setDamage(0.30, 0.60)], []);
+main3.addItemEntryHelper(<minecraft:iron_pickaxe>.withTag({display: {Name: "Dante's Pickaxe", Lore:["A pulsating magic emanates from within..."]}, ench:[{id:70,lvl:3}, {id:35,lvl:1}, {id:32,lvl:4}]}), 3, 1, [Functions.setDamage(0.00, 0.10)], []);
+main3.addItemEntryHelper(<minecraft:iron_boots>.withTag({display: {Name: "Glacier Boots", Lore:["Cold to the touch..."]}, ench:[{id:9,lvl:3}]}), 3, 1, [Functions.setDamage(0.00, 0.60)], []);
+main3.addItemEntryHelper(<minecraft:diamond_sword>.withTag({display: {Name: "Dante's Sword", Lore:["Grabbing the hilt removes all sensation from your fingers..."]}, ench:[{id:20,lvl:3}, {id:22,lvl:3}, {id:19,lvl:3}, {id:16,lvl:6}]}), 3, 1, [Functions.setDamage(0.10, 0.30)], []);
 
 #charm fix
 val charmpool = loot_table.getPool("main");
