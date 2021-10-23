@@ -445,15 +445,6 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "5dd43d03",
-		type: "item",
-		items: [{
-			item: "inventorypets:illuminati_pet"
-		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
-	},
-	{
 		uid: "9bebb7b0",
 		type: "item",
 		items: [{

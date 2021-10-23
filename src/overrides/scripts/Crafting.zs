@@ -84,8 +84,6 @@ print("--- disabled dungeontactics hammers ---");
 #Ports techreborn fuels to thermalfoundation
 print("--- porting techreborn fuels to thermalfoundation ---");
 mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:fluidbiofuel>, 18000);
-mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:fluidsodium>, 90000);
-mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:fluidlithium>, 180000);
 mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:fluidhydrogen>, 45000);
 mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:fluidmethane>, 135000);
 mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:fluidnitrofuel>, 72000);
