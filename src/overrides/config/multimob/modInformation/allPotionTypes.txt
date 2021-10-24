@@ -147,10 +147,7 @@ cofhcore:wither3+
 charm:coffee
 charm:decay
 charm:ender_sight
-cyclicmagic:ender
 cyclicmagic:snow
-cyclicmagic:butter
-cyclicmagic:butter2
 cyclicmagic:slowfall
 cyclicmagic:waterwalk
 cyclicmagic:swim

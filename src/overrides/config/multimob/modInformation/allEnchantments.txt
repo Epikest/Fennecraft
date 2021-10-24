@@ -115,7 +115,6 @@ charm:magnetic
 charm:salvage
 cyclicmagic:enchantment.autosmelt
 cyclicmagic:enchantment.beheading
-cyclicmagic:enchantment.excavation
 cyclicmagic:enchantment.lifeleech
 cyclicmagic:enchantment.magnet
 cyclicmagic:enchantment.multishot

@@ -89,6 +89,9 @@ thermalfoundation:blitz_bolt
 thermalfoundation:basalz_bolt
 thermalexpansion:florb
 thermalexpansion:morb
+quark:chest_passenger
+quark:gravisand
+quark:seat
 quark:pickarang
 quark:arrow_ender
 quark:arrow_explosive
@@ -100,7 +103,6 @@ quark:flat_item_frame
 quark:leash_knot
 quark:colored_item_frame
 quark:glass_item_frame
-quark:seat
 quark:stoneling
 quark:archaeologist
 quark:foxhound
@@ -110,8 +112,6 @@ quark:frog
 quark:pirate
 quark:crab
 quark:wraith
-quark:chest_passenger
-quark:gravisand
 biomesoplenty:mudball
 biomesoplenty:bop_boat
 biomesoplenty:wasp
@@ -434,7 +434,6 @@ champions:arctic_spark
 champions:cinder_spark
 cyclicmagic:tntblocksafebolt
 cyclicmagic:tntminingbolt
-cyclicmagic:blazebolt
 cyclicmagic:ender_eye_orb
 cyclicmagic:torchbolt
 cyclicmagic:dungeonbolt
@@ -554,9 +553,9 @@ totemic:bald_eagle
 thermaldynamics:transport
 actuallyadditions:worm
 p455w0rdslib:sitting_entity
+forestry:butterflyge
 forestry:cart.beehouse
 forestry:cart.apiary
-forestry:butterflyge
 immersiveengineering:revolvershot
 immersiveengineering:skylinehook
 immersiveengineering:revolvershothoming

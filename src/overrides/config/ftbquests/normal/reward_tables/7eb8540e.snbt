@@ -1312,10 +1312,6 @@
 		weight: 163
 	},
 	{
-		item: "cyclicmagic:heart_food",
-		weight: 314
-	},
-	{
 		item: "cyclicmagic:sound_player",
 		count: 2,
 		random_bonus: 2,

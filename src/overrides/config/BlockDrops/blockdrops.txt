@@ -28210,21 +28210,6 @@
     "3pair0": "{\n  \"left\": 1,\n  \"right\": 4\n}"
   },
   {
-    "name": "cyclicmagic:peat_baked",
-    "meta": 0,
-    "length": 1,
-    "name0": "cyclicmagic:peat_fuel",
-    "meta0": 0,
-    "0chance0": 149.525,
-    "1chance0": 148.9,
-    "2chance0": 150.0,
-    "3chance0": 149.475,
-    "0pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "1pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "2pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}",
-    "3pair0": "{\n  \"left\": 1,\n  \"right\": 2\n}"
-  },
-  {
     "name": "enderio:block_dark_paper_anvil",
     "meta": 1,
     "length": 1,
