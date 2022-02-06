@@ -1,7 +1,0 @@
-{
-	title: "Advanced Science",
-	icon: "buildcraftcore:gear_diamond",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

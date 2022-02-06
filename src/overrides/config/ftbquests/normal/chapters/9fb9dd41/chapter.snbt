@@ -1,7 +1,0 @@
-{
-	title: "Legendary Artifacts",
-	icon: "iceandfire:tide_trident",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
