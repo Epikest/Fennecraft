@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: -2.5d,
+	dependencies: [
+		"bc60dd75"
+	],
+	tasks: [{
+		uid: "f765063b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_mining_lens"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f080281",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "adc48cdd",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: -13.5d,
+	dependencies: [
+		"64a36a3b",
+		"131f968a",
+		"adc0ced2"
+	],
+	tasks: [{
+		uid: "db3f2123",
+		type: "item",
+		items: [{
+			item: "taiga:adamant_ingot"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "fc047e1b",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "71d40847",
+		type: "loot",
+		table: 6
+	}]
+}

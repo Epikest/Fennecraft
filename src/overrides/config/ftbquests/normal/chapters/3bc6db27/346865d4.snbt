@@ -1,0 +1,24 @@
+{
+	x: -15.0d,
+	y: -12.5d,
+	dependencies: [
+		"fa9f1f6a"
+	],
+	tasks: [{
+		uid: "d137808f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:beacon_potion"
+		}]
+	}],
+	rewards: [{
+		uid: "c69971ce",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9dc11749",
+		type: "loot",
+		table: 4
+	}]
+}

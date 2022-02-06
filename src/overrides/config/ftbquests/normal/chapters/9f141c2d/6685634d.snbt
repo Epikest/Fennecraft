@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:emerald 16",
+	disable_toast: true,
+	x: 0.5d,
+	y: -0.5d,
+	description: "*Unlocked by completing Introduction*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"189d88b6"
+	],
+	tasks: [{
+		uid: "11fb12da",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:emerald"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "cbe16c99",
+		type: "ftbmoney:money",
+		ftb_money: 110L
+	}]
+}

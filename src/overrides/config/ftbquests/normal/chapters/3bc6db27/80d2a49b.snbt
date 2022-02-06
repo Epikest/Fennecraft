@@ -1,0 +1,24 @@
+{
+	x: -15.0d,
+	y: -8.5d,
+	dependencies: [
+		"6a352219"
+	],
+	tasks: [{
+		uid: "53c17605",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_forester"
+		}]
+	}],
+	rewards: [{
+		uid: "8976fdb2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "fbede0bb",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	dependencies: [
+		"a2b4f121"
+	],
+	tasks: [{
+		uid: "3461d0fc",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:sleeping_mat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4546e299",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a4ef6ec6",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "02b4e075",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wither_skeleton_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "bec14156",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

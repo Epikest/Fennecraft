@@ -1,0 +1,23 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "2fdbcfea",
+		type: "item",
+		items: [{
+			item: "iceandfire:tide_trident"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8a81971f",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "96afe099",
+		type: "loot",
+		table: 5
+	}]
+}

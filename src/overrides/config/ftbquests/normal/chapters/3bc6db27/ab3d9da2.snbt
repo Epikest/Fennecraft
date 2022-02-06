@@ -1,0 +1,26 @@
+{
+	x: -16.5d,
+	y: -10.0d,
+	dependencies: [
+		"fa9f1f6a"
+	],
+	tasks: [{
+		uid: "98554902",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:laser_cannon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "627bfafa",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "344590e8",
+		type: "loot",
+		table: 4
+	}]
+}

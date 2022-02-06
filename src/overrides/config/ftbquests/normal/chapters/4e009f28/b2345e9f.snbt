@@ -1,0 +1,17 @@
+{
+	x: -15.0d,
+	y: -5.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "e2c3ac9b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:zinc_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "9bbb0dbd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: -3.5d,
+	y: 0.5d,
+	shape: "square",
+	description: "&oThree ore for a sheep! What a ripoff!",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"d8852201"
+	],
+	hide: true,
+	tasks: [{
+		uid: "23476d33",
+		type: "kill",
+		title: "Bounty: Villager",
+		icon: "twilightforest:knightmetal_sword",
+		entity: "minecraft:villager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4a21af67",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c2d1494e",
+		type: "item",
+		item: "tconstruct:edible 1 33",
+		count: 2,
+		random_bonus: 2
+	}]
+}

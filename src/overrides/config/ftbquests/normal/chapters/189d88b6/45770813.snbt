@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"31b29c7d"
+	],
+	tasks: [{
+		uid: "1bf7013a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crafter_on_a_stick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3b129bae",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "fc33afe5",
+		type: "loot",
+		table: 3
+	}]
+}

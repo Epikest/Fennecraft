@@ -1,0 +1,28 @@
+{
+	x: 5.0d,
+	y: 5.0d,
+	description: "Fuzzy get dizzy!",
+	text: [
+		""
+	],
+	dependencies: [
+		"71a1da9b"
+	],
+	tasks: [{
+		uid: "8e4c9fb8",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:shroompowder"
+		}]
+	}],
+	rewards: [{
+		uid: "4cc19a3a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "818a8efa",
+		type: "loot",
+		table: 3
+	}]
+}

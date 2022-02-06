@@ -1,0 +1,24 @@
+{
+	x: -7.5d,
+	y: 6.0d,
+	dependencies: [
+		"cc3f3c37"
+	],
+	tasks: [{
+		uid: "742efa7b",
+		type: "item",
+		items: [{
+			item: "tconstruct:piggybackpack"
+		}]
+	}],
+	rewards: [{
+		uid: "a7137819",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "94cbdad0",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 5.5d,
+	y: -10.5d,
+	dependencies: [
+		"ee88b49b"
+	],
+	tasks: [{
+		uid: "d9c5225c",
+		type: "item",
+		items: [{
+			item: "extrautils2:suncrystal 1 250"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f05626e1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3fe17657",
+		type: "loot",
+		table: 4
+	}]
+}

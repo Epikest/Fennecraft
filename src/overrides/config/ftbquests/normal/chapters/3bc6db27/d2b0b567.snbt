@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: -6.0d,
+	description: "Top Sneaky!",
+	dependencies: [
+		"f72df49a"
+	],
+	tasks: [{
+		uid: "3f533234",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:security"
+		}]
+	}],
+	rewards: [{
+		uid: "acd1386b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f77f370b",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: -11.5d,
+	y: -7.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "5793493b",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 2"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "eb5bc2ea",
+		type: "ftbmoney:money",
+		ftb_money: 8000L
+	},
+	{
+		uid: "9836a99f",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "583566ac",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "3cd30f92",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "8221975c",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "ef5b1f97",
+		type: "loot",
+		table: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: -13.0d,
+	y: -10.0d,
+	description: "Boinggggg!",
+	dependencies: [
+		"6a352219"
+	],
+	tasks: [{
+		uid: "e5e14ba8",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:plate_launch_extra"
+		}]
+	}],
+	rewards: [{
+		uid: "66b04beb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d3cefc22",
+		type: "loot",
+		table: 3
+	}]
+}

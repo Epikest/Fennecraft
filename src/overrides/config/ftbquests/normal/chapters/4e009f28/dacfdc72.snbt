@@ -1,0 +1,16 @@
+{
+	x: -11.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "d58c417c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:guardian_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "4b7d2a53",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:lapis_block 16",
+	disable_toast: true,
+	x: -2.5d,
+	y: 0.5d,
+	description: "*Unlocked by completing Magic*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"bec752d7"
+	],
+	tasks: [{
+		uid: "7202b9ff",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:lapis_block"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "89a15254",
+		type: "ftbmoney:money",
+		ftb_money: 570L
+	}]
+}

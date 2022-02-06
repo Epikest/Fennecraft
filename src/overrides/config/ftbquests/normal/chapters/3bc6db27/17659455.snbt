@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: 5.0d,
+	dependencies: [
+		"fd2f3a72"
+	],
+	tasks: [{
+		uid: "210b39c8",
+		type: "item",
+		items: [{
+			item: "projectred-illumination:inverted_fixture_light"
+		}]
+	}],
+	rewards: [{
+		uid: "f341e6f2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6eb779e9",
+		type: "loot",
+		table: 3
+	}]
+}

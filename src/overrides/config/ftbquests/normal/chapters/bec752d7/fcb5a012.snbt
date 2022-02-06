@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: 8.0d,
+	dependencies: [
+		"c495c920"
+	],
+	tasks: [{
+		uid: "5e0de60e",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:crystal_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "25c9ed1a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "43de79c0",
+		type: "loot",
+		table: 4
+	}]
+}

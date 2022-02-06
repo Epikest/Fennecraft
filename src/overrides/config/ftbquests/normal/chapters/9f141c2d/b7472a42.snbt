@@ -1,0 +1,33 @@
+{
+	title: "16x Vegetables",
+	icon: "minecraft:potato 16",
+	disable_toast: true,
+	x: -11.0d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e8ef3c47",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllveggie",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllveggie"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b58057fc",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

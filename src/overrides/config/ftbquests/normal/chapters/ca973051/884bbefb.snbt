@@ -1,0 +1,26 @@
+{
+	x: -6.5d,
+	y: -4.0d,
+	dependencies: [
+		"add3b7b4"
+	],
+	tasks: [{
+		uid: "a0471f4b",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a3e422ab",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "af578547",
+		type: "loot",
+		table: 3
+	}]
+}

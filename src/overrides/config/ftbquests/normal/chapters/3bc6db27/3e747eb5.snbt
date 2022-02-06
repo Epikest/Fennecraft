@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -8.5d,
+	shape: "gear",
+	tasks: [{
+		uid: "9c0708f1",
+		type: "item",
+		items: [{
+			item: "extrautils2:decorativesolid 1 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "a8b0988c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

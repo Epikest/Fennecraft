@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:cobblestone 64",
+	disable_toast: true,
+	x: -2.5d,
+	y: 3.0d,
+	shape: "circle",
+	can_repeat: true,
+	tasks: [{
+		uid: "e6e220ab",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "358b8262",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

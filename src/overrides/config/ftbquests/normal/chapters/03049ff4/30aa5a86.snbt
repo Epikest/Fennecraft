@@ -1,0 +1,106 @@
+{
+	title: "&d&lPowering the entire planet ",
+	icon: {
+		id: "techreborn:lithiumbattery",
+		tag: {
+			energy: 400000
+		}
+	},
+	x: -2.0d,
+	y: 0.5d,
+	shape: "diamond",
+	description: "Finally! Something to spend my billions of RF on...",
+	dependencies: [
+		"fa85c35a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b247e37d",
+		type: "forge_energy",
+		value: 10000000000000000L
+	}],
+	rewards: [{
+		uid: "c812e7b5",
+		type: "item",
+		item: {
+			id: "conarm:chestplate",
+			tag: {
+				StatsOriginal: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 46720,
+					Defense: 37.5f
+				},
+				Stats: {
+					Toughness: 0.0f,
+					FreeModifiers: 3,
+					Durability: 46720,
+					Defense: 37.5f
+				},
+				TinkerData: {
+					Materials: [
+						"electrumflux",
+						"electrumflux",
+						"electrumflux"
+					],
+					Modifiers: [
+						"leveling_armor"
+					]
+				},
+				Modifiers: [{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"leveling_armor"
+				]
+			}
+		}
+	},
+	{
+		uid: "237d8913",
+		type: "item",
+		item: "buildcraftcore:engine 1 3"
+	},
+	{
+		uid: "4de7f0bb",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "b6cbc8ff",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "12575747",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "bc6577c6",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "6d6e52da",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "1238d730",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "272ef753",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "699f3b5b",
+		type: "loot",
+		table: 6
+	}]
+}

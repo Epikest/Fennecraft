@@ -1,0 +1,42 @@
+{
+	title: "&8&lThe Beneath",
+	x: 6.500000000000001d,
+	y: 3.2500000000000004d,
+	shape: "hexagon",
+	description: "Come one, come all and let the darkness consume you!",
+	text: [
+		""
+	],
+	dependencies: [
+		"f40cdc52"
+	],
+	size: 1.3d,
+	tasks: [{
+		uid: "dabef19c",
+		type: "item",
+		items: [{
+			item: "beneath:teleporterbeneath"
+		}]
+	}],
+	rewards: [{
+		uid: "740975a9",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "38e03b31",
+		type: "item",
+		item: "harvestcraft:ploughmanslunchitem",
+		count: 3
+	},
+	{
+		uid: "5c83f3b4",
+		type: "item",
+		item: "cyclicmagic:tool_torch_launcher"
+	},
+	{
+		uid: "91d046e8",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"7eee0151"
+	],
+	tasks: [{
+		uid: "61231e36",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	}],
+	rewards: [{
+		uid: "ecb03839",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "2c6eafdd",
+		type: "loot",
+		table: 3
+	}]
+}

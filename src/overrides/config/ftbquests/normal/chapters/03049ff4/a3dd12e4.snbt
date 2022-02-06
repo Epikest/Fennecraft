@@ -1,0 +1,146 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	shape: "diamond",
+	description: "&oWe really need to consider taxing the rich in Minecraft",
+	dependencies: [
+		"fa85c35a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e9ee4a0a",
+		type: "ftbmoney:money",
+		title: "&c&lThe Billionaire",
+		value: 1000000000L
+	}],
+	rewards: [{
+		uid: "519f8157",
+		type: "item",
+		item: "rats:rat_upgrade_combined_creative",
+		random_bonus: 8
+	},
+	{
+		uid: "d998ef0c",
+		type: "item",
+		item: "rats:rat_upgrade_creative"
+	},
+	{
+		uid: "b5dc5041",
+		type: "item",
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "rats:black_death"
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "7d4649c9",
+		type: "item",
+		item: {
+			id: "enderio:item_soul_vial",
+			tag: {
+				entityId: "inventorypets:entitybillgates"
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "d0ca37d3",
+		type: "item",
+		item: {
+			id: "enderio:item_soul_vial",
+			tag: {
+				entityId: "inventorypets:entitysteveballmer"
+			},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "79595b9a",
+		type: "item",
+		item: {
+			id: "tconstruct:cleaver",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.555f,
+					FreeModifiers: 3,
+					Durability: 14646,
+					HarvestLevel: 4,
+					Attack: 15.734149f
+				},
+				display: {
+					Name: "Capitalism"
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 12.555f,
+					FreeModifiers: 3,
+					Durability: 14646,
+					HarvestLevel: 4,
+					Attack: 15.734149f
+				},
+				Special: {
+					Categories: [
+						"weapon",
+						"tool"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"redmatter",
+						"redmatter",
+						"redmatter",
+						"redmatter"
+					],
+					Modifiers: [
+						"beheading_cleaver",
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "weee",
+					color: -1900544,
+					level: 1
+				},
+				{
+					identifier: "beheading_cleaver",
+					color: 1070923,
+					level: 2
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"weee",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		uid: "064720e7",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "a3701579",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "b1aa845e",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "a3880ccf",
+		type: "loot",
+		table: 6
+	}]
+}

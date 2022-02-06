@@ -1,0 +1,31 @@
+{
+	x: 10.0d,
+	y: -10.5d,
+	dependencies: [
+		"83b419a0",
+		"2037290f"
+	],
+	tasks: [{
+		uid: "cdc14bbb",
+		type: "item",
+		items: [{
+			item: "taiga:solarium_ingot"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0dce0c53",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "18b2bcf4",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "6032fc11",
+		type: "loot",
+		table: 5
+	}]
+}

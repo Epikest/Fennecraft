@@ -1,0 +1,31 @@
+{
+	x: -14.0d,
+	y: -2.0d,
+	shape: "hexagon",
+	description: "Jet Propulsion Laboratory who?",
+	optional: true,
+	tasks: [{
+		uid: "17ba5fe7",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			tag: {
+				Energy: 0,
+				JetpackParticleType: 0
+			},
+			Damage: 10s
+		}],
+		consume_items: false,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e129c9be",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "760dd54c",
+		type: "loot",
+		table: 5
+	}]
+}

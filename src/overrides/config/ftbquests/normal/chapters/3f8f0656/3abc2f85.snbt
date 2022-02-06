@@ -1,0 +1,27 @@
+{
+	x: 11.0d,
+	y: -8.0d,
+	dependencies: [
+		"a7e1d9f4",
+		"dfe29ad4",
+		"5e66b790"
+	],
+	tasks: [{
+		uid: "7e7f699b",
+		type: "item",
+		items: [{
+			item: "taiga:nucleum_ingot"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "6b743533",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "e8824ad7",
+		type: "loot",
+		table: 5
+	}]
+}

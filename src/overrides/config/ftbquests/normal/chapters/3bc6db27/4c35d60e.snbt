@@ -1,0 +1,25 @@
+{
+	x: -10.0d,
+	y: -11.0d,
+	dependencies: [
+		"4e822a44"
+	],
+	tasks: [{
+		uid: "5da1f71a",
+		type: "item",
+		items: [{
+			item: "plustic:alumiteingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1bcafd5c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "35f78349",
+		type: "loot",
+		table: 4
+	}]
+}

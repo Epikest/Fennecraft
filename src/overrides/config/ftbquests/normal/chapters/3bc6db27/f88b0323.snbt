@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"9f4d73a1"
+	],
+	tasks: [{
+		uid: "b2bc08c4",
+		type: "item",
+		items: [{
+			item: "projectred-transmission:wire 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "fc01fdbc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e96aa6b2",
+		type: "loot",
+		table: 3
+	}]
+}

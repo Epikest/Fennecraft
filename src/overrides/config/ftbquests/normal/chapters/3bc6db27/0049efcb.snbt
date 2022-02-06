@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -4.5d,
+	dependencies: [
+		"830553a6"
+	],
+	tasks: [{
+		uid: "6545ff7b",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_oil_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "b2db2bf1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c82ac94f",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Mayor Position Available!",
+	icon: "minecolonies:supplychestdeployer",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

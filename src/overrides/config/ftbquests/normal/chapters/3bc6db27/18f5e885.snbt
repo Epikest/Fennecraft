@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: 3.0d,
+	dependencies: [
+		"fd2f3a72"
+	],
+	tasks: [{
+		uid: "9408935a",
+		type: "item",
+		items: [{
+			item: "projectred-core:multimeter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0171428f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aacca1c8",
+		type: "loot",
+		table: 3
+	}]
+}

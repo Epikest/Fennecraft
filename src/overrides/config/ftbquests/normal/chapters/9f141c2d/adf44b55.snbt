@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:coal 16",
+	disable_toast: true,
+	x: -5.5d,
+	y: 3.0d,
+	shape: "circle",
+	can_repeat: true,
+	tasks: [{
+		uid: "dfe9cd72",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:coal"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0d8864b4",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	}]
+}

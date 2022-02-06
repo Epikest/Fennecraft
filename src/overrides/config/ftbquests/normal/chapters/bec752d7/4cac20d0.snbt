@@ -1,0 +1,27 @@
+{
+	x: 11.0d,
+	y: -1.0d,
+	description: "By placing this artifact in my hotbar, it will summon the nightmarish creature from the horrible dream you found yourself enduring, what is the difference between what's real and what isn't &k2&r &cI fear my dreams may be more real than I thought...",
+	dependencies: [
+		"03bf751d"
+	],
+	tasks: [{
+		uid: "fb196f9e",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:dreamcatcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "377f94bb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6d1ef149",
+		type: "loot",
+		table: 4
+	}]
+}

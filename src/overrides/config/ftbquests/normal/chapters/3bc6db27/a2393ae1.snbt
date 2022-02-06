@@ -1,0 +1,21 @@
+{
+	x: -14.0d,
+	y: -7.5d,
+	dependencies: [
+		"6a352219"
+	],
+	tasks: [{
+		uid: "e695c965",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_trade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "079b2f7f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

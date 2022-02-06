@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -11.0d,
+	dependencies: [
+		"3259bd46"
+	],
+	tasks: [{
+		uid: "2b865040",
+		type: "item",
+		items: [{
+			item: "extrautils2:resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "f0a3791c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "517377a9",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: 7.5d,
+	tasks: [{
+		uid: "b4eecd0b",
+		type: "item",
+		items: [{
+			item: "extrautils2:chickenring 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2733af9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a8f41809",
+		type: "loot",
+		table: 4
+	}]
+}

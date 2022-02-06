@@ -1,0 +1,24 @@
+{
+	x: -11.5d,
+	y: -9.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "14da1060",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9bf78117",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "eb3e3812",
+		type: "loot",
+		table: 4
+	}]
+}

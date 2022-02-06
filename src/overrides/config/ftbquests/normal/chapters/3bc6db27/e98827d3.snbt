@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: -12.0d,
+	shape: "pentagon",
+	dependencies: [
+		"87b1a024"
+	],
+	tasks: [{
+		uid: "c142a85f",
+		type: "item",
+		items: [{
+			item: "taiga:aurorium_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0176276f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "dd4605ab",
+		type: "loot",
+		table: 4
+	}]
+}

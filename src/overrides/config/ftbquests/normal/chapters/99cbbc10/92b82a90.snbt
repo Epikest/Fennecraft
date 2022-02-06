@@ -1,0 +1,45 @@
+{
+	title: "Hot and Cold!",
+	x: 8.5d,
+	y: -0.5d,
+	dependencies: [
+		"0a5005e1"
+	],
+	tasks: [{
+		uid: "37805942",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:heating_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9d6a9e5d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:ice_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d91a81b0",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c14c549",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f54c03a2",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 6.5d,
+	y: -9.5d,
+	dependencies: [
+		"43a88c5d"
+	],
+	tasks: [{
+		uid: "505bb5ff",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_battery_box"
+		}]
+	}],
+	rewards: [{
+		uid: "be27eab7",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "ba96af4c",
+		type: "loot",
+		table: 4
+	}]
+}

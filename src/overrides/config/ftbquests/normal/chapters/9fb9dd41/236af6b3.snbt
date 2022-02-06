@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "978909fa",
+		type: "item",
+		items: [{
+			item: "iceandfire:hippocampus_slapper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "423fb545",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "0644d9db",
+		type: "loot",
+		table: 5
+	}]
+}

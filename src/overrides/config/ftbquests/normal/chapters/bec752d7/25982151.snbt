@@ -1,0 +1,26 @@
+{
+	x: 3.5d,
+	y: -2.5d,
+	dependencies: [
+		"4486956a"
+	],
+	tasks: [{
+		uid: "9a8fc9b3",
+		type: "item",
+		items: [{
+			item: "totemic:baykok_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbf42acb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ec5a1645",
+		type: "loot",
+		table: 4
+	}]
+}

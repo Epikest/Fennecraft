@@ -1,0 +1,21 @@
+{
+	x: -16.5d,
+	y: -5.0d,
+	tasks: [{
+		uid: "f0b521af",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:hop_graphite_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "8c5b4007",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "94ea9fd2",
+		type: "loot",
+		table: 4
+	}]
+}

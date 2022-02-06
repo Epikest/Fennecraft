@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -8.0d,
+	dependencies: [
+		"c3dab0ab"
+	],
+	tasks: [{
+		uid: "74c85846",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_energizer"
+		}]
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"c444ede7"
+	],
+	size: 0.7d,
+	tasks: [{
+		uid: "e5f0e08e",
+		type: "item",
+		items: [{
+			item: "mod_lavacow:moltenbeef"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "529c0b5f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c7568ea4",
+		type: "item",
+		item: "mod_lavacow:vespa_dagger"
+	},
+	{
+		uid: "a388ad1c",
+		type: "loot",
+		table: 4
+	}]
+}

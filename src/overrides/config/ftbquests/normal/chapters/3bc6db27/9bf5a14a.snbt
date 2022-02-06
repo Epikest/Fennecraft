@@ -1,0 +1,28 @@
+{
+	x: 1.5d,
+	y: -9.5d,
+	description: "Farmable Redstone!",
+	text: [
+		""
+	],
+	dependencies: [
+		"2ed8d496"
+	],
+	tasks: [{
+		uid: "1c497485",
+		type: "item",
+		items: [{
+			item: "extrautils2:redorchid"
+		}]
+	}],
+	rewards: [{
+		uid: "e4bc25b1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c5f3ce49",
+		type: "loot",
+		table: 3
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -1.5d,
+	y: -10.0d,
+	dependencies: [
+		"2ed8d496"
+	],
+	tasks: [{
+		uid: "abdd5c02",
+		type: "item",
+		items: [{
+			item: "extrautils2:interactionproxy"
+		}]
+	}],
+	rewards: [{
+		uid: "4f3383d2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "f083eaa5",
+		type: "loot",
+		table: 3
+	}]
+}

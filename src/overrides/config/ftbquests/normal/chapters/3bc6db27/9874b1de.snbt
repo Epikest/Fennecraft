@@ -1,0 +1,32 @@
+{
+	x: 4.5d,
+	y: -9.5d,
+	dependencies: [
+		"ee88b49b"
+	],
+	tasks: [{
+		uid: "8b38f3c3",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarry"
+		}]
+	},
+	{
+		uid: "aab05524",
+		type: "item",
+		items: [{
+			item: "extrautils2:quarryproxy"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "7361b02f",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "11eedb77",
+		type: "loot",
+		table: 5
+	}]
+}

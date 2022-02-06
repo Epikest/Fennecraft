@@ -1,0 +1,24 @@
+{
+	x: -16.5d,
+	y: -11.5d,
+	dependencies: [
+		"fa9f1f6a"
+	],
+	tasks: [{
+		uid: "72dd7b32",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_candle"
+		}]
+	}],
+	rewards: [{
+		uid: "e4f948ef",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0604ff42",
+		type: "loot",
+		table: 4
+	}]
+}

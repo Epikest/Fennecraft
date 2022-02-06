@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "48a6fd03",
+		type: "item",
+		items: [{
+			item: "projectred-core:resource_item 1 103"
+		}]
+	}],
+	rewards: [{
+		uid: "0f8cdb78",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a1367dcf",
+		type: "loot",
+		table: 3
+	}]
+}

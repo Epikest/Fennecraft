@@ -1,0 +1,28 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	description: "Longer range than redstone dust and can crawl on the walls!",
+	text: [
+		""
+	],
+	dependencies: [
+		"fd2f3a72"
+	],
+	tasks: [{
+		uid: "ae2260c4",
+		type: "item",
+		items: [{
+			item: "projectred-transmission:wire"
+		}]
+	}],
+	rewards: [{
+		uid: "053af989",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "a5eb82ce",
+		type: "loot",
+		table: 3
+	}]
+}

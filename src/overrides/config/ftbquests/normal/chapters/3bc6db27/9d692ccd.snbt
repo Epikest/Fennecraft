@@ -1,0 +1,19 @@
+{
+	x: -11.0d,
+	y: -8.0d,
+	dependencies: [
+		"6a352219"
+	],
+	tasks: [{
+		uid: "5ef1acfb",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:card_location"
+		}]
+	}],
+	rewards: [{
+		uid: "faf72d2f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

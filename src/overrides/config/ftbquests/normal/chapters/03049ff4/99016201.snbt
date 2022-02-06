@@ -1,0 +1,32 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "1937d580",
+		type: "item",
+		items: [{
+			item: "extrautils2:snowglobe 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8e2588f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8d5825fb",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "f459d41f",
+		type: "item",
+		item: "totemic:ceremony_cheat"
+	},
+	{
+		uid: "c620e747",
+		type: "loot",
+		table: 5
+	}]
+}

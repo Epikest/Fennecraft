@@ -1,0 +1,33 @@
+{
+	title: "Cooking Part 3.",
+	x: 10.0d,
+	y: 2.0d,
+	description: "&oYou gotta do the cooking by the book!",
+	dependencies: [
+		"cb9faa4a"
+	],
+	tasks: [{
+		uid: "d7da63a8",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:recipe_book 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6604ff3a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "9c240b28",
+		type: "item",
+		item: "minecraft:milk_bucket",
+		count: 3
+	},
+	{
+		uid: "15108070",
+		type: "loot",
+		table: 5
+	}]
+}

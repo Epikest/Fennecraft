@@ -1,0 +1,30 @@
+{
+	x: 7.0d,
+	y: 0.5d,
+	description: "This might take a while to break...",
+	text: [
+		""
+	],
+	dependencies: [
+		"29a77314"
+	],
+	tasks: [{
+		uid: "43328224",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:obsidian_paxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82efc28c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "97b183ff",
+		type: "loot",
+		table: 3
+	}]
+}

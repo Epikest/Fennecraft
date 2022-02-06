@@ -1,0 +1,34 @@
+{
+	x: -19.5d,
+	y: -2.0d,
+	dependencies: [
+		"af8a9ce0"
+	],
+	tasks: [{
+		uid: "a1983514",
+		type: "item",
+		items: [{
+			item: "rats:rat_upgrade_nonbeliever"
+		}]
+	}],
+	rewards: [{
+		uid: "d9dc2e86",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "61be3d3f",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "c20e8de4",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "c61357eb",
+		type: "loot",
+		table: 6
+	}]
+}

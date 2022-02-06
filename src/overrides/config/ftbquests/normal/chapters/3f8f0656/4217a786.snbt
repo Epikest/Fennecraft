@@ -1,0 +1,31 @@
+{
+	x: 12.0d,
+	y: -10.5d,
+	dependencies: [
+		"2037290f",
+		"83b419a0"
+	],
+	tasks: [{
+		uid: "2ddbd363",
+		type: "item",
+		items: [{
+			item: "taiga:yrdeen_ingot"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "0a209f8c",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a92b1dd8",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "348b28cb",
+		type: "loot",
+		table: 5
+	}]
+}

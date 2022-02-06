@@ -1,0 +1,21 @@
+{
+	x: -7.5d,
+	y: -4.0d,
+	description: "Dragons... they grow up so fast",
+	dependencies: [
+		"add3b7b4"
+	],
+	tasks: [{
+		uid: "fcaba873",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_meal"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "08f656d8",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

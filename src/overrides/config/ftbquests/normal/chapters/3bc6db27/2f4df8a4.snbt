@@ -1,0 +1,24 @@
+{
+	x: 5.0d,
+	y: -12.0d,
+	dependencies: [
+		"ee88b49b"
+	],
+	tasks: [{
+		uid: "e489430e",
+		type: "item",
+		items: [{
+			item: "extrautils2:playerchest"
+		}]
+	}],
+	rewards: [{
+		uid: "8ed569cf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "3e45fcb7",
+		type: "loot",
+		table: 3
+	}]
+}

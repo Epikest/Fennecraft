@@ -1,0 +1,16 @@
+{
+	x: -16.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "b2316c8f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ardite_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "07574957",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

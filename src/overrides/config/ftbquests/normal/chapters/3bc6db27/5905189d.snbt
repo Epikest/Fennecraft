@@ -1,0 +1,27 @@
+{
+	x: -14.0d,
+	y: -9.5d,
+	dependencies: [
+		"80d2a49b"
+	],
+	tasks: [{
+		uid: "84545f93",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e68c0ea",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "654ea78b",
+		type: "loot",
+		table: 3
+	}]
+}

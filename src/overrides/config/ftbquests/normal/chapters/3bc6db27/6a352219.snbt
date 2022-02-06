@@ -1,0 +1,26 @@
+{
+	x: -13.0d,
+	y: -8.5d,
+	shape: "gear",
+	description: "Cyclic is a tech mod, right? - Hunter",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "703c5153",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:placer_block"
+		}]
+	}],
+	rewards: [{
+		uid: "b2bd14a9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3517c25d",
+		type: "loot",
+		table: 4
+	}]
+}

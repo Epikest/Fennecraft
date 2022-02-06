@@ -1,0 +1,162 @@
+[
+  {
+    "ore": "minecraft:coal_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 82,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:iron_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 24,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "mekanism:oreblock",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 16,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:redstone_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 12,
+    "size": 12,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:gold_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 8,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:diamond_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 16,
+    "size": 8,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "minecraft:emerald_ore",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 4,
+    "miny": 10,
+    "maxy": 246
+  },
+  {
+    "ore": "nuclearcraft:ore",
+    "oremeta": 3,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 5,
+    "miny": 10,
+    "maxy": 42
+  },
+  {
+    "ore": "nuclearcraft:ore",
+    "oremeta": 4,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 4,
+    "miny": 10,
+    "maxy": 42
+  },
+  {
+    "ore": "nuclearcraft:ore",
+    "oremeta": 5,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 9,
+    "size": 5,
+    "miny": 10,
+    "maxy": 38
+  },
+  {
+    "ore": "nuclearcraft:ore",
+    "oremeta": 6,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 9,
+    "size": 5,
+    "miny": 10,
+    "maxy": 38
+  },
+  {
+    "ore": "nuclearcraft:ore",
+    "oremeta": 7,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 5,
+    "miny": 10,
+    "maxy": 34
+  },
+  {
+    "ore": "thermalfoundation:ore",
+    "oremeta": 6,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 3,
+    "size": 6,
+    "miny": 10,
+    "maxy": 40
+  },
+  {
+    "ore": "thermalfoundation:ore",
+    "oremeta": 7,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 6,
+    "miny": 10,
+    "maxy": 40
+  },
+  {
+    "ore": "thermalfoundation:ore",
+    "oremeta": 8,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 2,
+    "size": 6,
+    "miny": 10,
+    "maxy": 40
+  },
+  {
+    "ore": "mekanism:oreblock",
+    "oremeta": 0,
+    "source": "minecraft:stone",
+    "srcmeta": 0,
+    "veins": 6,
+    "size": 8,
+    "miny": 10,
+    "maxy": 48
+  }
+]

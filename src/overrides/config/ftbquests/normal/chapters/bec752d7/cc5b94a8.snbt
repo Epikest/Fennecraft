@@ -1,0 +1,24 @@
+{
+	x: 11.0d,
+	y: 5.0d,
+	dependencies: [
+		"8ee26c04"
+	],
+	tasks: [{
+		uid: "0b1083bc",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:terrarium 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "e53f318f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7cabdf78",
+		type: "loot",
+		table: 4
+	}]
+}

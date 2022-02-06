@@ -1,0 +1,31 @@
+{
+	x: 3.5d,
+	y: 3.5d,
+	description: "I hate this flower. Get me one so I can burn it. - Cyrix",
+	dependencies: [
+		"71a1da9b"
+	],
+	tasks: [{
+		uid: "0d3e9185",
+		type: "item",
+		items: [{
+			item: "dungeontactics:flower_fade"
+		}]
+	}],
+	rewards: [{
+		uid: "cf392203",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "99ad0047",
+		type: "item",
+		item: "biomesoplenty:ash",
+		count: 3
+	},
+	{
+		uid: "4271d0f7",
+		type: "loot",
+		table: 3
+	}]
+}

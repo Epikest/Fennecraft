@@ -1,0 +1,33 @@
+{
+	title: "16x Logs",
+	icon: "minecraft:log 16",
+	disable_toast: true,
+	x: 8.5d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "783281de",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "14e8453c",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

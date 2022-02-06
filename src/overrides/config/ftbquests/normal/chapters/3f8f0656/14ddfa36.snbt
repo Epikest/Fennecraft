@@ -1,0 +1,43 @@
+{
+	title: "Ultimate Tools",
+	x: 21.5d,
+	y: 9.0d,
+	description: "End-game tools of Tech reborn",
+	dependencies: [
+		"c147bd9f"
+	],
+	tasks: [{
+		uid: "47dbb219",
+		type: "item",
+		items: [{
+			id: "techreborn:advancedchainsaw",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e10afea",
+		type: "item",
+		items: [{
+			id: "techreborn:advanceddrill",
+			tag: {
+				energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "485ec7e9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "3f303c65",
+		type: "loot",
+		table: 5
+	}]
+}

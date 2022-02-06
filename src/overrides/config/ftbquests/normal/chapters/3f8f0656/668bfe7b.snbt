@@ -1,0 +1,26 @@
+{
+	title: "Electrifying!",
+	x: 15.5d,
+	y: 6.0d,
+	description: "Produces Fluids and Dusts from different items.",
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "da1be5e0",
+		type: "item",
+		items: [{
+			item: "techreborn:industrial_electrolyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "7b1f4794",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "dccd838e",
+		type: "loot",
+		table: 4
+	}]
+}

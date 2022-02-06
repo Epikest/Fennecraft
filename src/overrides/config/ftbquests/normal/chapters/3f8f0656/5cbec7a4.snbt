@@ -1,0 +1,23 @@
+{
+	x: 11.0d,
+	y: -4.5d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "3b871b96",
+		type: "item",
+		items: [{
+			item: "taiga:duranite_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "1b441e47",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d923f9af",
+		type: "loot",
+		table: 5
+	}]
+}

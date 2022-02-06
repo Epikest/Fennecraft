@@ -1,0 +1,26 @@
+{
+	disable_toast: true,
+	x: 10.0d,
+	y: 2.5d,
+	description: "*Unlocked by completing Advanced Science*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3f8f0656"
+	],
+	tasks: [{
+		uid: "4253dd16",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}],
+	rewards: [{
+		uid: "6eec52b2",
+		type: "ftbmoney:money",
+		ftb_money: 180L
+	}]
+}

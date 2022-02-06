@@ -1,0 +1,28 @@
+{
+	x: 5.0d,
+	y: -4.5d,
+	shape: "octagon",
+	hide_dependency_lines: true,
+	dependencies: [
+		"36443d40"
+	],
+	tasks: [{
+		uid: "4fdfdd08",
+		type: "item",
+		items: [{
+			item: "charm:totem_of_shielding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af612f15",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1a10e94e",
+		type: "loot",
+		table: 4
+	}]
+}

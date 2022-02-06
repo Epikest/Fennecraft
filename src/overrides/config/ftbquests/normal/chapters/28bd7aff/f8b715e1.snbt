@@ -1,0 +1,31 @@
+{
+	title: "Genocide",
+	x: -6.0d,
+	y: -1.0d,
+	dependencies: [
+		"eff24e31"
+	],
+	tasks: [{
+		uid: "14f6f0ac",
+		type: "kill",
+		title: "Murder 50 Innocent Citizens",
+		icon: "thermalfoundation:diagram_redprint",
+		entity: "minecolonies:citizen",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "a897b305",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "bec16158",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "351dfe91",
+		type: "loot",
+		table: 5
+	}]
+}

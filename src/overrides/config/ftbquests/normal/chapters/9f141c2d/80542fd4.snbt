@@ -1,0 +1,21 @@
+{
+	icon: "extrautils2:compressedcobblestone 64 1",
+	disable_toast: true,
+	x: -2.5d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3964739f",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "extrautils2:compressedcobblestone 1 1"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b9f4074a",
+		type: "ftbmoney:money",
+		ftb_money: 95L
+	}]
+}

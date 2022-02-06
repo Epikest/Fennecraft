@@ -1,0 +1,26 @@
+{
+	x: 11.5d,
+	y: -12.0d,
+	shape: "pentagon",
+	dependencies: [
+		"131f968a"
+	],
+	tasks: [{
+		uid: "41b46773",
+		type: "item",
+		items: [{
+			item: "taiga:vibranium_ingot"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "a25414ab",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "123c8d31",
+		type: "loot",
+		table: 6
+	}]
+}

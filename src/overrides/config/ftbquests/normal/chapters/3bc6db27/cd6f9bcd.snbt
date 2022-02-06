@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: -11.5d,
+	dependencies: [
+		"441864ec"
+	],
+	tasks: [{
+		uid: "dd6c8544",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_engineer_goggles_advanced"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49714c26",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6ba8a61c",
+		type: "loot",
+		table: 4
+	}]
+}

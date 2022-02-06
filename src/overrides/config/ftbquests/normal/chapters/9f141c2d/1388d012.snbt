@@ -1,0 +1,43 @@
+{
+	icon: {
+		id: "thermalexpansion:cell",
+		tag: {
+			Recv: 1000,
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 50000000,
+			SideCache: [B;
+				2b,
+				1b,
+				1b,
+				1b,
+				1b,
+				1b
+			],
+			Level: 4b,
+			Send: 1000
+		}
+	},
+	disable_toast: true,
+	x: 10.5d,
+	y: 5.0d,
+	description: "*Unlocked by completing Advanced Science*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3f8f0656"
+	],
+	tasks: [{
+		uid: "f4ab03ec",
+		type: "forge_energy",
+		disable_toast: true,
+		value: 64000000L
+	}],
+	rewards: [{
+		uid: "eec5f755",
+		type: "ftbmoney:money",
+		ftb_money: 840L
+	}]
+}

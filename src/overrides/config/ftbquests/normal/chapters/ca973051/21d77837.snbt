@@ -1,0 +1,24 @@
+{
+	title: "&bVisit Auroian",
+	icon: "theaurorian:petuniaplant",
+	x: -17.5d,
+	y: -11.700000000000001d,
+	shape: "octagon",
+	description: "&oThis beautiful planet consists of a dark cold quiet forest, filled with magical plants and forgotten ruins bathed in moon light. Quite the sight to be seen.",
+	size: 1.3d,
+	tasks: [{
+		uid: "e4af555b",
+		type: "dimension",
+		dim: 424
+	}],
+	rewards: [{
+		uid: "7b10fd12",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "fd71fbeb",
+		type: "loot",
+		table: 4
+	}]
+}

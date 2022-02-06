@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: -4.0d,
+	shape: "gear",
+	tasks: [{
+		uid: "86d910cf",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_canola_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "1714e057",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

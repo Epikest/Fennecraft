@@ -1,0 +1,37 @@
+{
+	title: "16x Raw Fish",
+	icon: "minecraft:fish 16",
+	disable_toast: true,
+	x: -11.0d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "51534a9a",
+		type: "item",
+		title: "16x Raw Fish",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfishfresh",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllfishfresh"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "46008772",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

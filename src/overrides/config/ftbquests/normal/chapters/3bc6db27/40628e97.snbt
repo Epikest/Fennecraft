@@ -1,0 +1,28 @@
+{
+	x: -3.0d,
+	y: 5.0d,
+	description: "Lasts longer than vanilla repeaters!",
+	text: [
+		""
+	],
+	dependencies: [
+		"9f4d73a1"
+	],
+	tasks: [{
+		uid: "d8dae3bb",
+		type: "item",
+		items: [{
+			item: "projectred-integration:gate 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "a9554ba8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "524a64bb",
+		type: "loot",
+		table: 3
+	}]
+}

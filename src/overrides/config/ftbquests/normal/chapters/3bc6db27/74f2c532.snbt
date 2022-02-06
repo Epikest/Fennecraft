@@ -1,0 +1,24 @@
+{
+	x: -17.5d,
+	y: -1.0d,
+	dependencies: [
+		"44e7c36a"
+	],
+	tasks: [{
+		uid: "d170e1c4",
+		type: "item",
+		items: [{
+			item: "railcraft:routing_ticket_gold"
+		}]
+	}],
+	rewards: [{
+		uid: "18b72d88",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "14c234e9",
+		type: "loot",
+		table: 3
+	}]
+}

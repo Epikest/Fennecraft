@@ -1,0 +1,16 @@
+{
+	x: -12.5d,
+	y: -6.0d,
+	tasks: [{
+		uid: "2710ebbc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:slime_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "33b5b66f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

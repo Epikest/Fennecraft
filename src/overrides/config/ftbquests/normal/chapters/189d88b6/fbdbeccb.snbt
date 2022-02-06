@@ -1,0 +1,26 @@
+{
+	x: -9.0d,
+	y: 6.5d,
+	dependencies: [
+		"3be55c59"
+	],
+	tasks: [{
+		uid: "3f04fe85",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:sign_editor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "175a8544",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0b231f38",
+		type: "loot",
+		table: 3
+	}]
+}

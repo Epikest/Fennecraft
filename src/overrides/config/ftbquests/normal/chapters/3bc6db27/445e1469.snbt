@@ -1,0 +1,24 @@
+{
+	x: 10.0d,
+	y: -2.5d,
+	dependencies: [
+		"0049efcb"
+	],
+	tasks: [{
+		uid: "ce6cb81f",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_heat_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "e0efa6d4",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9a3ce311",
+		type: "loot",
+		table: 3
+	}]
+}

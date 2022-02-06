@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:redstone_block 16",
+	disable_toast: true,
+	x: -4.0d,
+	y: 4.0d,
+	description: "*Unlocked by completing Introduction*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"189d88b6"
+	],
+	tasks: [{
+		uid: "b4950739",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:redstone_block"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "390157c9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	}]
+}

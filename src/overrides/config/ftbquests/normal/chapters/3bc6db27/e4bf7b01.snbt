@@ -1,0 +1,21 @@
+{
+	x: 2.5d,
+	y: -13.5d,
+	dependencies: [
+		"ee88b49b"
+	],
+	tasks: [{
+		uid: "03c58127",
+		type: "item",
+		items: [{
+			item: "extrautils2:bagofholding"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa78c6ce",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

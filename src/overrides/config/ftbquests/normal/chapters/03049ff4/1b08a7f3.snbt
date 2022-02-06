@@ -1,0 +1,23 @@
+{
+	title: "&lTime Played",
+	x: 4.0d,
+	y: -2.0d,
+	description: "&oTime is money friend!",
+	tasks: [{
+		uid: "b9edbae7",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 2900000
+	}],
+	rewards: [{
+		uid: "02da9521",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "c9eb371e",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	}]
+}

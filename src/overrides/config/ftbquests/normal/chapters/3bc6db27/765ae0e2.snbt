@@ -1,0 +1,26 @@
+{
+	x: -6.0d,
+	y: 4.0d,
+	dependencies: [
+		"fd2f3a72"
+	],
+	tasks: [{
+		uid: "34204ac5",
+		type: "item",
+		items: [{
+			item: "projectred-core:screwdriver"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39152a0d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "35239cf4",
+		type: "loot",
+		table: 3
+	}]
+}

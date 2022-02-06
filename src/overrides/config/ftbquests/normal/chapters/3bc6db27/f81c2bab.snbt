@@ -1,0 +1,29 @@
+{
+	x: -18.5d,
+	y: -1.0d,
+	description: "Required to power rails using redstone flux",
+	text: [
+		""
+	],
+	dependencies: [
+		"b544dbe0"
+	],
+	tasks: [{
+		uid: "5595d8aa",
+		type: "item",
+		items: [{
+			item: "railcraft:flux_transformer"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "7b7e5928",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "573e9658",
+		type: "loot",
+		table: 5
+	}]
+}

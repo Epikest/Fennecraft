@@ -1,0 +1,24 @@
+{
+	x: -10.5d,
+	y: 6.0d,
+	dependencies: [
+		"3be55c59"
+	],
+	tasks: [{
+		uid: "82a5c88f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:crafting_food"
+		}]
+	}],
+	rewards: [{
+		uid: "5a3db1cf",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "9a4c2e47",
+		type: "loot",
+		table: 3
+	}]
+}

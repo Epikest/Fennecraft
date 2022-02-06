@@ -1,0 +1,28 @@
+{
+	icon: "tconstruct:metal 16 2",
+	disable_toast: true,
+	x: 2.0d,
+	y: 0.5d,
+	description: "*Unlocked by completing Challenges*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"03049ff4"
+	],
+	tasks: [{
+		uid: "5d6aae3c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:metal 1 2"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "64ef5acb",
+		type: "ftbmoney:money",
+		ftb_money: 3770L
+	}]
+}

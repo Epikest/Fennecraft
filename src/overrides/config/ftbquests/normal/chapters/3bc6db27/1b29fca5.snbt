@@ -1,0 +1,24 @@
+{
+	x: 7.0d,
+	y: -3.5d,
+	dependencies: [
+		"2140029b"
+	],
+	tasks: [{
+		uid: "b8a410b3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "b34630f2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6b5f384d",
+		type: "loot",
+		table: 3
+	}]
+}

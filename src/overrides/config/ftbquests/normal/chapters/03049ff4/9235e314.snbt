@@ -1,0 +1,31 @@
+{
+	x: 1.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "5c9486d8",
+		type: "stat",
+		icon: "treasure2:emerald_lock",
+		stat: "stat.tradedWithVillager",
+		value: 500
+	}],
+	rewards: [{
+		uid: "dcfa2705",
+		type: "item",
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		uid: "61d2ac89",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager"
+			}
+		}
+	},
+	{
+		uid: "07f35cfc",
+		type: "loot",
+		table: 6
+	}]
+}

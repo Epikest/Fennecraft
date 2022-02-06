@@ -1,0 +1,24 @@
+{
+	x: 9.0d,
+	y: -5.5d,
+	dependencies: [
+		"2140029b"
+	],
+	tasks: [{
+		uid: "3ffd26d1",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_coal_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "5a878182",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2836ba2b",
+		type: "loot",
+		table: 3
+	}]
+}

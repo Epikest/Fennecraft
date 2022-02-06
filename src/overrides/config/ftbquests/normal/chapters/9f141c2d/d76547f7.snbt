@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:iron_block 16",
+	disable_toast: true,
+	x: -5.5d,
+	y: 0.5d,
+	description: "*Unlocked by completing Introduction to Science*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3bc6db27"
+	],
+	tasks: [{
+		uid: "63678c0c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:iron_block"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d1e9227e",
+		type: "ftbmoney:money",
+		ftb_money: 190L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 6.5d,
+	y: 6.5d,
+	dependencies: [
+		"71a1da9b"
+	],
+	tasks: [{
+		uid: "9faf3d60",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hot_spring_water",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "6d1e862a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6ae52a2d",
+		type: "loot",
+		table: 3
+	}]
+}

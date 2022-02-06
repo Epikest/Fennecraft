@@ -1,0 +1,24 @@
+{
+	x: -2.5d,
+	y: 3.0d,
+	dependencies: [
+		"9f4d73a1"
+	],
+	tasks: [{
+		uid: "719ffa4e",
+		type: "item",
+		items: [{
+			item: "projectred-integration:gate 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "c9805f44",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "4ae6b97e",
+		type: "loot",
+		table: 3
+	}]
+}

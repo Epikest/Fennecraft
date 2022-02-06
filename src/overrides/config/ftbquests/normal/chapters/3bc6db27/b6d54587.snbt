@@ -1,0 +1,34 @@
+{
+	x: -3.5d,
+	y: -5.5d,
+	dependencies: [
+		"37cf225d"
+	],
+	tasks: [{
+		uid: "b87da852",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:infinity_drill",
+			tag: {
+				Energy: 0L,
+				Fluid: {
+					FluidName: "biofuel",
+					Amount: 0
+				},
+				Special: 0b,
+				Selected: "POOR"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0bcdae81",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "cf8c526d",
+		type: "loot",
+		table: 5
+	}]
+}

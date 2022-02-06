@@ -1,0 +1,49 @@
+{
+	x: -2.5d,
+	y: -5.0d,
+	shape: "square",
+	description: "Giant Taintacle... How horrific, how unnatural, hmmm. Stop thinking about that!",
+	dependencies: [
+		"c16f14e3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ea57158a",
+		type: "kill",
+		title: "Bounty: Giant Taintacle",
+		icon: "twilightforest:knightmetal_sword",
+		entity: "thaumcraft:taintaclegiant",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "46bbed3c",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5bafb898",
+		type: "item",
+		item: "minecraft:diamond_block",
+		count: 3
+	},
+	{
+		uid: "f4ec6bc1",
+		type: "item",
+		item: "minecraft:emerald_block"
+	},
+	{
+		uid: "980cf1ec",
+		type: "item",
+		item: "minecraft:nether_star"
+	},
+	{
+		uid: "c111a41d",
+		type: "loot",
+		table: 4
+	},
+	{
+		uid: "2688a1b4",
+		type: "loot",
+		table: 4
+	}]
+}

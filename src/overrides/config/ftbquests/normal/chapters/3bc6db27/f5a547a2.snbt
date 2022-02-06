@@ -1,0 +1,36 @@
+{
+	x: 6.0d,
+	y: -7.5d,
+	dependencies: [
+		"c3dab0ab"
+	],
+	tasks: [{
+		uid: "d79ccbb5",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_canola_press"
+		}]
+	},
+	{
+		uid: "b35a1f88",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_fermenting_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "41bb8d89",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "606af8a8",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "c3128bed",
+		type: "item",
+		item: "harvestcraft:oliveoilitem"
+	}]
+}

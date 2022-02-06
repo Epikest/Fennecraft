@@ -1,0 +1,39 @@
+{
+	title: "&1&lDragon Slayer",
+	icon: "iceandfire:dragonbone_sword_ice",
+	x: 2.0d,
+	y: 2.0d,
+	description: "Ice",
+	text: [
+		"Slay x100 Dragons"
+	],
+	tasks: [{
+		uid: "43666e43",
+		type: "kill",
+		title: "Dragon Slayer",
+		icon: "iceandfire:dragonbone_sword_ice",
+		entity: "iceandfire:icedragon",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "9c115a49",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "ba01f1b4",
+		type: "item",
+		item: "iceandfire:dragonsteel_ice_ingot",
+		count: 64
+	},
+	{
+		uid: "df8ef3a1",
+		type: "loot",
+		table: 6
+	},
+	{
+		uid: "b91a4903",
+		type: "loot",
+		table: 6
+	}]
+}

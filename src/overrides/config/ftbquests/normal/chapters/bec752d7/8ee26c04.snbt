@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: 5.0d,
+	dependencies: [
+		"c495c920"
+	],
+	tasks: [{
+		uid: "7961228d",
+		type: "item",
+		items: [{
+			item: "biomesoplenty:sapling_0 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "60fb0d39",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "cb2327da",
+		type: "loot",
+		table: 4
+	}]
+}

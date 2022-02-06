@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: -5.0d,
+	dependencies: [
+		"f64d982d"
+	],
+	tasks: [{
+		uid: "b5459eae",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "5ecff570",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

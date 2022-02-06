@@ -1,0 +1,29 @@
+{
+	x: 8.0d,
+	y: 5.0d,
+	dependencies: [
+		"71a1da9b"
+	],
+	tasks: [{
+		uid: "032d19e9",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sand",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "8c8be50a",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "381bda1c",
+		type: "loot",
+		table: 3
+	}]
+}

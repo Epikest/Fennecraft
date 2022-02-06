@@ -1,0 +1,45 @@
+{
+	title: "IC Fabrication",
+	x: 3.5d,
+	y: 3.0d,
+	description: "Now 99% Smaller!",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b315788"
+	],
+	tasks: [{
+		uid: "e0ee8a46",
+		type: "item",
+		items: [{
+			item: "projectred-fabrication:ic_machine 1 1"
+		}]
+	},
+	{
+		uid: "627975e7",
+		type: "item",
+		items: [{
+			item: "projectred-fabrication:ic_machine"
+		}]
+	},
+	{
+		uid: "b5de5096",
+		type: "item",
+		items: [{
+			item: "projectred-fabrication:ic_blueprint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e58945a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f78d5393",
+		type: "loot",
+		table: 4
+	}]
+}

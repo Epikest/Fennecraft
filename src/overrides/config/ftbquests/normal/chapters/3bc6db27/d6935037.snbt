@@ -1,0 +1,25 @@
+{
+	x: -13.5d,
+	y: 2.0d,
+	dependencies: [
+		"f52485cf"
+	],
+	tasks: [{
+		uid: "f62bf5e1",
+		type: "item",
+		items: [{
+			item: "railcraft:track_elevator"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "a92a1d14",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "26e0c388",
+		type: "loot",
+		table: 3
+	}]
+}

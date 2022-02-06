@@ -1,0 +1,24 @@
+{
+	x: 11.5d,
+	y: -12.0d,
+	dependencies: [
+		"441864ec"
+	],
+	tasks: [{
+		uid: "63295053",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_shock_suppressor"
+		}]
+	}],
+	rewards: [{
+		uid: "f240962d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d83c9b76",
+		type: "loot",
+		table: 4
+	}]
+}

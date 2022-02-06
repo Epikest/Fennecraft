@@ -1,0 +1,24 @@
+{
+	x: 3.0d,
+	y: -9.0d,
+	dependencies: [
+		"ee88b49b"
+	],
+	tasks: [{
+		uid: "0dac1250",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "238ee190",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "eaaf4227",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: -14.5d,
+	y: -1.0d,
+	description: "Charges items with RF",
+	text: [
+		"*Unlocks the creative jetpack in the shop"
+	],
+	dependencies: [
+		"749a3883",
+		"e1433870"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fc0e4a3c",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 9s
+		}]
+	}],
+	rewards: [{
+		uid: "a57fdaa3",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "f4d3e60e",
+		type: "loot",
+		table: 4
+	}]
+}

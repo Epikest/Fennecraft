@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	dependencies: [
+		"9f4d73a1"
+	],
+	tasks: [{
+		uid: "9651307b",
+		type: "item",
+		items: [{
+			item: "projectred-core:resource_item 1 301"
+		}]
+	}],
+	rewards: [{
+		uid: "7d417f5f",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6b27b0df",
+		type: "loot",
+		table: 4
+	}]
+}

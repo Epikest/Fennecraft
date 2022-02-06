@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: -12.0d,
+	dependencies: [
+		"43a88c5d"
+	],
+	tasks: [{
+		uid: "6f1748a6",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	}],
+	rewards: [{
+		uid: "d596477a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "42d99622",
+		type: "loot",
+		table: 4
+	}]
+}

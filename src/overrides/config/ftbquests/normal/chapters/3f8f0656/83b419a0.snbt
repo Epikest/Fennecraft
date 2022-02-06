@@ -1,0 +1,31 @@
+{
+	x: 9.5d,
+	y: -9.0d,
+	shape: "pentagon",
+	dependencies: [
+		"3abc2f85"
+	],
+	tasks: [{
+		uid: "8fe021fb",
+		type: "item",
+		items: [{
+			item: "taiga:uru_ingot"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "c0d8aec8",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "aacef97b",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "cc149ea6",
+		type: "loot",
+		table: 5
+	}]
+}

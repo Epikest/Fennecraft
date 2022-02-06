@@ -1,0 +1,28 @@
+{
+	x: 8.0d,
+	y: -10.0d,
+	dependencies: [
+		"f1f5d7b2"
+	],
+	tasks: [{
+		uid: "7b722f9b",
+		type: "item",
+		items: [{
+			id: "actuallyadditions:item_battery",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aad340d0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "aa960430",
+		type: "loot",
+		table: 3
+	}]
+}

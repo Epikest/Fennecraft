@@ -1,0 +1,27 @@
+{
+	x: -5.0d,
+	y: -12.0d,
+	dependencies: [
+		"87b1a024",
+		"ebb673b1",
+		"91b1d0ee"
+	],
+	tasks: [{
+		uid: "f0b39b0c",
+		type: "item",
+		items: [{
+			item: "taiga:iox_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3b0fb51d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "eba69337",
+		type: "loot",
+		table: 4
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	icon: "minecraft:gold_block 64",
+	disable_toast: true,
+	x: -4.0d,
+	y: 1.5d,
+	description: "*Unlocked by completing Introduction to Science*",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"3bc6db27"
+	],
+	tasks: [{
+		uid: "0ca91f4e",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:gold_block"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "a457ad4e",
+		type: "ftbmoney:money",
+		ftb_money: 4300L
+	}]
+}

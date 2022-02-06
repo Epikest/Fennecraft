@@ -1,0 +1,21 @@
+{
+	icon: "minecraft:rotten_flesh 16",
+	disable_toast: true,
+	x: -8.0d,
+	y: -1.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "f3f9d59f",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "minecraft:rotten_flesh"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "40529d72",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

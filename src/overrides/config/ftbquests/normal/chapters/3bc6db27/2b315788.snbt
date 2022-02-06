@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	description: "Combine with plates to make an IC Gate",
+	text: [
+		""
+	],
+	dependencies: [
+		"0bec46d4"
+	],
+	tasks: [{
+		uid: "3f8e9d90",
+		type: "item",
+		items: [{
+			item: "projectred-fabrication:ic_chip"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bae1119e",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "57483f29",
+		type: "loot",
+		table: 4
+	}]
+}

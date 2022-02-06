@@ -1,0 +1,26 @@
+{
+	title: "He protec, he attac and most importantly he got your back",
+	icon: "inventorypets:creeper_pet",
+	x: -11.5d,
+	y: 0.0d,
+	description: "Lil turtle buddy went on a holiday, so his pal Sbeve is stepping in for him",
+	text: [
+		""
+	],
+	dependencies: [
+		"87cb3976"
+	],
+	tasks: [{
+		uid: "9f1682e1",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f4cfa2a8",
+		type: "item",
+		item: "inventorypets:creeper_pet"
+	}]
+}

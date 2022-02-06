@@ -1,0 +1,29 @@
+{
+	title: "Toughest Ingot!",
+	x: 21.5d,
+	y: 8.0d,
+	text: [
+		"Tungsten ore can only be ground up using the Industrial Grinder, and the resulting dust can only be smelt in a Blast furnace housing 2,500 heat."
+	],
+	dependencies: [
+		"06cc512e"
+	],
+	tasks: [{
+		uid: "915c947b",
+		type: "item",
+		items: [{
+			item: "techreborn:ingot 1 15"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "08796aa1",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "6bd6629a",
+		type: "loot",
+		table: 4
+	}]
+}

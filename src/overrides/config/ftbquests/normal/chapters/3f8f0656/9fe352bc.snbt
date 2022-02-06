@@ -1,0 +1,34 @@
+{
+	x: 15.5d,
+	y: -3.0d,
+	description: "Large transfer capacity and faster rate of transfer",
+	dependencies: [
+		"f8bd13e2"
+	],
+	tasks: [{
+		uid: "a8f19303",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ffa69750",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72b067f9",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "5b364931",
+		type: "loot",
+		table: 4
+	}]
+}

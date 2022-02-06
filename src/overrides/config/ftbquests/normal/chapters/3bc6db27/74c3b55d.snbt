@@ -1,0 +1,24 @@
+{
+	x: -14.0d,
+	y: -11.5d,
+	dependencies: [
+		"fa9f1f6a"
+	],
+	tasks: [{
+		uid: "e6f2e347",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:ender_tnt_6"
+		}]
+	}],
+	rewards: [{
+		uid: "92495da5",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "c25aa9b3",
+		type: "loot",
+		table: 4
+	}]
+}
